@@ -1,0 +1,51 @@
+/* Selected Batch 7 artwork supports the brand, never the legibility of a claim. */
+.wh-brand-light {
+  background-image: linear-gradient(#eff6fdeb, #eff6fdf2), url('../assets/web/brand-pattern-light-1440.webp');
+  background-size: cover;
+  background-position: center;
+}
+.wh-why-section {
+  background-image: linear-gradient(#0b2d5bef, #0b2d5bf7), url('../assets/web/brand-pattern-navy-1440.webp');
+  background-size: cover;
+  background-position: center;
+}
+.wh-footer-main {
+  background-image: linear-gradient(#0b2d5bf7, #08264df7), url('../assets/web/brand-pattern-navy-1440.webp');
+  background-size: cover;
+  background-position: center;
+}
+.wh-about-hero .wh-care-hero-visual > img,
+.wh-tech-hero .wh-care-hero-visual > img,
+.wh-about-model-image > img { object-position: 50% 50%; }
+.wh-editorial-photo { margin: 0; overflow: hidden; border-radius: 16px; }
+.wh-editorial-photo > img { display: block; width: 100%; height: auto; object-fit: cover; }
+.wh-why-photo { margin-top: 30px; max-width: 450px; border: 1px solid #ffffff26; background: #09284f; }
+.wh-why-photo > img { aspect-ratio: 1.65; }
+.wh-why-photo figcaption { padding: 12px 17px; color: #c6d9ee; font-size: 11px; line-height: 1.6; }
+.wh-clinical-graphic { position: relative; margin: 36px 0 0; overflow: hidden; border: 1px solid #d7e7f6; border-radius: 18px; background: #f4f9ff; }
+.wh-clinical-graphic > img { display: block; width: 100%; height: auto; max-height: 330px; object-fit: cover; object-position: center; }
+.wh-clinical-graphic figcaption { position: absolute; left: 24px; bottom: 22px; padding: 12px 18px; border: 1px solid #e0ebf6; border-radius: 9px; background: #fffffff2; color: var(--wh-navy); font-size: 13px; font-weight: 600; line-height: 1.6; }
+.wh-referral-process { background: #f7faff; border-top: 1px solid #e0eaf5; }
+.wh-referral-process-layout { display: grid; grid-template-columns: 1.25fr 1fr; gap: 48px; align-items: center; }
+.wh-referral-process-graphic { margin: 0; overflow: hidden; border: 1px solid #d6e5f5; border-radius: 18px; background: #fff; }
+.wh-referral-process-graphic img { display: block; width: 100%; height: auto; }
+.wh-referral-process-graphic figcaption { padding: 13px 20px; border-top: 1px solid #e7eff8; color: var(--wh-text); font-size: 11px; line-height: 1.7; }
+.wh-referral-process-steps { list-style: none; padding: 0; margin: 0; display: grid; gap: 0; counter-reset: wh-referral-step; }
+.wh-referral-process-steps li { position: relative; padding: 20px 0 20px 58px; border-bottom: 1px solid #dce8f4; counter-increment: wh-referral-step; }
+.wh-referral-process-steps li:last-child { border-bottom: 0; }
+.wh-referral-process-steps li::before { content: counter(wh-referral-step); position: absolute; top: 19px; left: 0; display: grid; place-items: center; width: 36px; height: 36px; border-radius: 50%; color: var(--wh-blue); background: #e3f0fe; font-size: 13px; font-weight: 650; }
+.wh-referral-process-steps h3 { margin: 0 0 7px; font-size: 18px; line-height: 1.4; }
+.wh-referral-process-steps p { margin: 0; color: var(--wh-text); font-size: 13px; line-height: 1.8; }
+.wh-referral-process-note { margin: 30px 0 0; padding-top: 24px; border-top: 1px solid #dce8f4; color: var(--wh-text); font-size: 13px; line-height: 1.8; }
+@media (max-width: 880px) {
+  .wh-referral-process-layout { grid-template-columns: 1fr; gap: 24px; }
+  .wh-referral-process-graphic { max-width: 720px; margin-inline: auto; }
+  .wh-why-photo { max-width: 650px; }
+}
+@media (max-width: 600px) {
+  .wh-clinical-graphic { margin-top: 26px; border-radius: 13px; }
+  .wh-clinical-graphic > img { min-height: 210px; object-position: 60% center; }
+  .wh-clinical-graphic figcaption { position: static; padding: 14px 18px; border: 0; border-top: 1px solid #e0ebf6; border-radius: 0; font-size: 12px; }
+  .wh-referral-process-graphic { border-radius: 13px; }
+  .wh-referral-process-steps h3 { font-size: 17px; }
+}

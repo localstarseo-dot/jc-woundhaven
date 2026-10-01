@@ -1,0 +1,164 @@
+.wh-care-breadcrumb { display: flex; flex-wrap: wrap; gap: 11px; font-size: 12px; line-height: 1.6; color: #587697; margin-bottom: 28px; }
+.wh-care-breadcrumb a:hover { color: var(--wh-blue); text-decoration: underline; text-underline-offset: 3px; }
+.wh-care-breadcrumb > span:first-of-type { color: #a0b8d1; }
+.wh-care-hero { padding-block: 45px 64px; }
+.wh-care-hero .wh-hero-layout { gap: 66px; }
+.wh-care-hero h1 { font-size: clamp(42px, 4.2vw, 58px); }
+.wh-care-hero .wh-hero-description { font-size: 15px; margin-bottom: 18px; }
+.wh-care-hero-support { font-size: 14px; color: var(--wh-text); line-height: 1.8; margin: 0 0 28px; max-width: 550px; }
+.wh-care-hero-features { display: flex; flex-wrap: wrap; gap: 16px 24px; list-style: none; margin: 30px 0 0; padding: 0; }
+.wh-care-hero-features li { display: flex; align-items: center; gap: 8px; color: #375876; font-size: 11px; line-height: 1.5; font-weight: 550; }
+.wh-care-hero-features img { flex: 0 0 auto; object-fit: contain; }
+.wh-care-hero-visual { position: relative; aspect-ratio: 1.05; align-self: center; border-radius: 100px 20px 60px 20px; background: #dfecf7; margin-top: 25px; }
+.wh-care-hero-visual > img { position: absolute; inset: 0; width: 100%; height: 100%; border-radius: inherit; object-fit: cover; object-position: 48% 50%; }
+.wh-care-image-note { position: absolute; bottom: 24px; left: 24px; right: 24px; display: flex; align-items: center; gap: 14px; padding: 19px 21px; background: #fffffff2; border: 1px solid #ffffffb3; border-radius: 12px; }
+.wh-care-image-note > img { flex: 0 0 auto; object-fit: contain; }
+.wh-care-image-note strong { display: block; font-size: 14px; line-height: 1.5; }
+.wh-care-image-note span { display: block; color: var(--wh-text); font-size: 11px; margin-top: 5px; line-height: 1.5; }
+.wh-care-overview-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.wh-care-overview-card { padding: 27px 24px; border-radius: 12px; background: #fff; border: 1px solid #d8e7f5; display: flex; flex-direction: column; min-width: 0; transition: border-color .18s ease; }
+.wh-care-overview-card:hover { border-color: #88b8e9; }
+.wh-care-overview-card > img { display: block; object-fit: contain; margin-bottom: 21px; }
+.wh-care-overview-card h3 { font-size: 18px; line-height: 1.4; margin: 0 0 12px; }
+.wh-care-overview-card p { color: var(--wh-text); font-size: 13px; line-height: 1.8; margin: 0 0 23px; }
+.wh-care-overview-card .wh-text-link { font-size: 12px; margin-top: auto; }
+.wh-care-assessment-layout { display: grid; grid-template-columns: 1fr 1.05fr; gap: 70px; align-items: center; }
+.wh-care-assessment-image { margin: 0; position: relative; align-self: stretch; min-height: 540px; border-radius: 20px; overflow: hidden; background: #d8e8f5; }
+.wh-care-assessment-image > img { position: absolute; inset: 0; display: block; height: 100%; width: 100%; object-fit: cover; object-position: 47% 50%; }
+.wh-care-assessment-image figcaption { position: absolute; bottom: 22px; left: 22px; right: 22px; padding: 22px; border-radius: 12px; background: #fffffff2; font-size: 19px; line-height: 1.4; font-weight: 650; letter-spacing: -.025em; }
+.wh-care-assessment-copy > p:not(.wh-eyebrow) { color: var(--wh-text); font-size: 15px; line-height: 1.8; margin: 23px 0; }
+.wh-care-assessment-copy .wh-check-list { gap: 16px 22px; }
+.wh-care-assessment-crosslink { display: flex; align-items: center; justify-content: flex-start; margin-top: 25px; max-width: 440px; }
+.wh-care-treatment-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 44px; }
+.wh-care-treatment-grid article { display: flex; align-items: flex-start; gap: 22px; padding: 26px 0; border-top: 1px solid #d4e3f3; }
+.wh-care-treatment-grid h3 { margin: 0 0 11px; font-size: 21px; line-height: 1.35; }
+.wh-care-treatment-grid p { margin: 0; font-size: 14px; line-height: 1.8; color: var(--wh-text); max-width: 510px; }
+.wh-care-list-number { padding-top: 5px; font-size: 11px; font-weight: 650; color: #537da8; line-height: 1.8; }
+.wh-care-clinical-note { border-top: 1px solid #d4e3f3; margin: 15px 0 0; padding-top: 25px; font-size: 14px; color: #42678f; line-height: 1.8; }
+.wh-care-diagnostic-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 35px 42px; }
+.wh-care-diagnostic-grid article { padding-block: 25px 10px; border-top: 1px solid #d4e3f3; }
+.wh-care-diagnostic-grid img { display: block; margin-bottom: 21px; object-fit: contain; }
+.wh-care-diagnostic-grid h3 { font-size: 20px; line-height: 1.4; margin: 0 0 12px; }
+.wh-care-diagnostic-grid p { color: var(--wh-text); font-size: 14px; line-height: 1.8; margin: 0; max-width: 340px; }
+.wh-care-advanced-section { background: #eff6fd; border-block: 1px solid #e0ebf6; }
+.wh-care-advanced-layout { display: grid; grid-template-columns: 1.12fr .88fr; gap: 94px; align-items: center; }
+.wh-care-section-description { color: var(--wh-text); font-size: 15px; line-height: 1.8; margin: 23px 0; max-width: 580px; }
+.wh-care-advanced-options { display: grid; grid-template-columns: 1fr 1fr; list-style: none; padding: 0; margin: 25px 0 0; gap: 17px 24px; }
+.wh-care-advanced-options li { display: flex; align-items: baseline; gap: 9px; color: #365e86; font-size: 13px; line-height: 1.6; }
+.wh-care-advanced-options li::before { content: "✓"; color: var(--wh-blue); }
+.wh-care-decision-card { background: #fff; border: 1px solid #d7e7f6; border-radius: 18px; padding: 42px; box-shadow: 0 7px 20px #0b2d5b04; }
+.wh-care-decision-icon { display: grid; place-items: center; width: 68px; height: 68px; border-radius: 50%; background: #ecf6ff; margin-bottom: 28px; }
+.wh-care-decision-icon > img { object-fit: contain; }
+.wh-care-decision-card .wh-eyebrow { font-size: 10px; margin-bottom: 18px; }
+.wh-care-decision-card h3 { font-size: 28px; line-height: 1.25; margin: 0 0 21px; }
+.wh-care-decision-card > p:not(.wh-eyebrow) { color: var(--wh-text); font-size: 14px; line-height: 1.8; margin: 0 0 28px; }
+.wh-care-wounds-layout { display: grid; grid-template-columns: 1fr 1.1fr; gap: 90px; align-items: center; }
+.wh-care-wound-list { display: grid; grid-template-columns: 1fr 1fr; list-style: none; padding: 0; margin: 0; gap: 13px; }
+.wh-care-wound-list li { border: 1px solid #d5e5f5; border-radius: 9px; background: #fff; padding: 20px 22px; font-size: 14px; line-height: 1.5; font-weight: 550; }
+.wh-care-why .wh-section-heading { align-items: center; margin-bottom: 48px; }
+.wh-care-why .wh-section-heading > a { flex: 0 0 auto; }
+.wh-care-reason-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 35px 45px; }
+.wh-care-reason-grid article { border-top: 1px solid #ffffff29; padding-top: 24px; }
+.wh-care-reason-grid article > span { display: block; margin-bottom: 21px; font-size: 11px; color: #89b4df; }
+.wh-care-reason-grid h3 { font-size: 21px; line-height: 1.4; margin: 0 0 14px; }
+.wh-care-reason-grid p { color: #bed3e9; font-size: 14px; line-height: 1.8; margin: 0; max-width: 340px; }
+.wh-care-reason-grid .wh-text-link { color: #a6d3ff !important; margin-top: 20px; }
+.wh-care-austin-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 95px; align-items: start; }
+.wh-care-austin-copy > p { color: var(--wh-text); font-size: 15px; line-height: 1.8; margin: 0 0 21px; }
+.wh-care-austin-copy .wh-care-other-areas { margin: 25px 0 0; font-size: 12px; color: #526f8f; }
+.wh-care-other-areas a { text-decoration: underline; text-underline-offset: 3px; }
+.wh-care-other-areas a:hover { color: var(--wh-blue); }
+.wh-service-page .wh-audience-card { background: #fff; }
+.wh-service-page .wh-audience-card .wh-home-actions, .wh-service-page .wh-audience-card .wh-referral-choice { margin-top: auto; padding-top: 21px; }
+.wh-service-page .wh-referral-choice > div { top: calc(100% + 10px); }
+@media (max-width: 1150px) {
+  .wh-care-hero .wh-hero-layout { gap: 42px; }
+  .wh-care-hero h1 { font-size: 47px; }
+  .wh-care-hero .wh-hero-description { font-size: 14px; }
+  .wh-care-hero-support { font-size: 13px; }
+  .wh-care-image-note { padding: 17px; gap: 12px; left: 18px; right: 18px; bottom: 18px; }
+  .wh-care-image-note strong { font-size: 12px; }
+  .wh-care-overview-card { padding: 24px 20px; }
+  .wh-care-overview-card h3 { font-size: 17px; }
+  .wh-care-assessment-layout { gap: 45px; }
+  .wh-care-advanced-layout { gap: 55px; }
+  .wh-care-decision-card { padding: 34px; }
+  .wh-care-wounds-layout { gap: 50px; }
+  .wh-care-reason-grid { gap: 30px; }
+  .wh-care-austin-layout { gap: 60px; }
+}
+@media (max-width: 880px) {
+  .wh-care-hero { padding-block: 38px 54px; }
+  .wh-care-hero .wh-hero-layout { gap: 42px; }
+  .wh-care-hero h1 { font-size: 57px; }
+  .wh-care-hero .wh-hero-description { font-size: 16px; }
+  .wh-care-hero-support { font-size: 14px; max-width: 630px; }
+  .wh-care-hero-visual { aspect-ratio: 1.45; margin: 0; }
+  .wh-care-image-note { right: auto; max-width: calc(100% - 36px); }
+  .wh-care-overview-grid { grid-template-columns: 1fr 1fr; }
+  .wh-care-overview-card h3 { font-size: 20px; }
+  .wh-care-assessment-layout { grid-template-columns: 1fr; gap: 40px; }
+  .wh-care-assessment-image { min-height: 0; aspect-ratio: 1.45; }
+  .wh-care-assessment-copy > p:not(.wh-eyebrow) { max-width: 650px; }
+  .wh-care-treatment-grid { gap: 0 30px; }
+  .wh-care-treatment-grid h3 { font-size: 19px; }
+  .wh-care-diagnostic-grid { grid-template-columns: 1fr 1fr; gap: 30px; }
+  .wh-care-advanced-layout { grid-template-columns: 1fr; gap: 38px; }
+  .wh-care-section-description { max-width: 650px; }
+  .wh-care-decision-card h3 br { display: none; }
+  .wh-care-wounds-layout { grid-template-columns: 1fr; gap: 34px; }
+  .wh-care-why .wh-section-heading > a { margin-top: 25px; }
+  .wh-care-reason-grid { grid-template-columns: 1fr 1fr; gap: 35px; }
+  .wh-care-austin-layout { grid-template-columns: 1fr; gap: 30px; }
+}
+@media (max-width: 600px) {
+  .wh-care-hero { padding-block: 28px 40px; }
+  .wh-care-breadcrumb { font-size: 11px; margin-bottom: 25px; }
+  .wh-care-hero h1 { font-size: clamp(33px, 9.5vw, 52px); }
+  .wh-care-hero .wh-hero-description { font-size: 14px; }
+  .wh-care-hero-support { font-size: 13px; }
+  .wh-care-hero-features { display: grid; gap: 12px; margin-top: 25px; }
+  .wh-care-hero-features li { font-size: 11px; }
+  .wh-care-hero-features img { width: 25px; height: 25px; }
+  .wh-care-hero-visual { aspect-ratio: 1.05; border-radius: 60px 14px 45px 14px; }
+  .wh-care-image-note { left: 14px; right: 14px; bottom: 14px; max-width: none; padding: 15px 13px; gap: 10px; border-radius: 9px; }
+  .wh-care-image-note > img { width: 30px; height: 30px; }
+  .wh-care-image-note strong { font-size: 11px; }
+  .wh-care-image-note span { font-size: 10px; }
+  .wh-care-overview-grid { grid-template-columns: 1fr; gap: 12px; }
+  .wh-care-overview-card { padding: 25px 24px; }
+  .wh-care-overview-card > img { margin-bottom: 17px; width: 36px; height: 36px; }
+  .wh-care-overview-card p { font-size: 14px; margin-bottom: 20px; }
+  .wh-care-assessment-image { aspect-ratio: 1.05; border-radius: 14px; }
+  .wh-care-assessment-image figcaption { left: 15px; right: 15px; bottom: 15px; padding: 18px; font-size: 17px; }
+  .wh-care-assessment-copy > p:not(.wh-eyebrow) { font-size: 14px; margin-block: 20px; }
+  .wh-care-assessment-copy .wh-check-list { grid-template-columns: 1fr; gap: 13px; }
+  .wh-care-assessment-copy .wh-check-list li { font-size: 12px; }
+  .wh-care-assessment-copy > .wh-button { width: 100%; font-size: 12px; padding-inline: 15px; }
+  .wh-care-assessment-crosslink { font-size: 12px; gap: 13px; }
+  .wh-care-treatment-grid { grid-template-columns: 1fr; }
+  .wh-care-treatment-grid article { gap: 17px; padding-block: 24px; }
+  .wh-care-treatment-grid h3 { font-size: 20px; }
+  .wh-care-treatment-grid p { font-size: 13px; }
+  .wh-care-clinical-note { font-size: 13px; }
+  .wh-care-diagnostic-grid { grid-template-columns: 1fr; gap: 17px; }
+  .wh-care-diagnostic-grid article { padding-block: 24px 7px; }
+  .wh-care-diagnostic-grid p { font-size: 14px; max-width: none; }
+  .wh-care-section-description { font-size: 14px; margin-block: 20px; }
+  .wh-care-advanced-options { grid-template-columns: 1fr; gap: 15px; }
+  .wh-care-advanced-options li { font-size: 13px; }
+  .wh-care-decision-card { padding: 29px 24px; border-radius: 14px; }
+  .wh-care-decision-card h3 { font-size: 27px; }
+  .wh-care-decision-card > p:not(.wh-eyebrow) { font-size: 13px; }
+  .wh-care-decision-card .wh-button { width: 100%; }
+  .wh-care-wound-list { grid-template-columns: 1fr; gap: 10px; }
+  .wh-care-wound-list li { padding: 17px 20px; font-size: 13px; }
+  .wh-care-why .wh-section-heading { margin-bottom: 34px; }
+  .wh-care-why .wh-section-heading > a { width: 100%; font-size: 12px; padding-inline: 15px; }
+  .wh-care-reason-grid { grid-template-columns: 1fr; gap: 26px; }
+  .wh-care-reason-grid h3 { font-size: 21px; }
+  .wh-care-reason-grid p { font-size: 13px; max-width: none; }
+  .wh-care-reason-grid article > span { margin-bottom: 15px; }
+  .wh-care-austin-copy > p { font-size: 14px; }
+  .wh-service-page .wh-audience-card h3 { font-size: 28px; }
+}

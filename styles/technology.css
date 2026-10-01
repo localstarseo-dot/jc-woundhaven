@@ -1,0 +1,157 @@
+.wh-tech-hero .wh-care-hero-visual > img { object-position: 100% 50%; }
+.wh-tech-overview-intro { display: grid; grid-template-columns: 1fr 1.1fr; align-items: start; gap: 80px; margin-bottom: 40px; }
+.wh-tech-overview-intro p:not(.wh-eyebrow) { color: var(--wh-text); font-size: 15px; line-height: 1.8; margin: 0 0 20px; }
+.wh-tech-overview-intro p:last-child { margin-bottom: 0; }
+.wh-tech-workflow-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+.wh-tech-workflow-grid > a { position: relative; min-width: 0; display: flex; flex-direction: column; align-items: flex-start; padding: 30px 26px 27px; border: 1px solid #d4e5f5; border-radius: 12px; background: #fff; transition: border-color .18s ease; }
+.wh-tech-workflow-grid > a:hover { border-color: #88b8e9; }
+.wh-tech-workflow-index { position: absolute; top: 29px; right: 25px; color: #789abc; font-size: 11px; font-weight: 600; line-height: 1.8; }
+.wh-tech-workflow-grid img { display: block; object-fit: contain; margin-bottom: 22px; }
+.wh-tech-workflow-grid h3 { margin: 0 0 12px; font-size: 23px; line-height: 1.4; }
+.wh-tech-workflow-grid p { color: var(--wh-text); font-size: 13px; line-height: 1.8; margin: 0 0 19px; max-width: 220px; }
+.wh-tech-workflow-arrow { margin-top: auto; font-size: 20px; line-height: 1; color: var(--wh-blue); }
+.wh-tech-documentation-layout { display: grid; grid-template-columns: 1fr 1.05fr; gap: 70px; align-items: center; }
+.wh-tech-documentation-image { position: relative; margin: 0; border-radius: 20px; overflow: hidden; background: #d8e8f5; align-self: stretch; min-height: 620px; }
+.wh-tech-documentation-image > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 48% 50%; }
+.wh-tech-documentation-image figcaption { position: absolute; bottom: 22px; left: 22px; right: 22px; padding: 20px; border-radius: 12px; background: #fffffff2; font-size: 16px; font-weight: 600; line-height: 1.5; }
+.wh-tech-documentation-copy > p:not(.wh-eyebrow), .wh-tech-vascular-copy > p:not(.wh-eyebrow) { color: var(--wh-text); font-size: 15px; line-height: 1.8; margin: 23px 0; }
+.wh-tech-check-list { display: grid; grid-template-columns: 1fr 1fr; list-style: none; margin: 0; padding: 0; gap: 16px 22px; }
+.wh-tech-check-list li { display: flex; align-items: baseline; gap: 10px; color: #42668b; font-size: 13px; line-height: 1.7; }
+.wh-tech-check-list li::before { content: "✓"; color: var(--wh-blue); font-size: 12px; }
+.wh-tech-diagnostic-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+.wh-tech-diagnostic-grid article { min-width: 0; border: 1px solid #d3e4f4; border-radius: 12px; padding: 31px 28px; background: #fff; }
+.wh-tech-diagnostic-grid img { display: block; object-fit: contain; margin-bottom: 23px; }
+.wh-tech-diagnostic-grid h3 { font-size: 21px; line-height: 1.4; margin: 0 0 14px; }
+.wh-tech-diagnostic-grid p { font-size: 14px; color: var(--wh-text); line-height: 1.8; margin: 0; max-width: 330px; }
+.wh-tech-section-bottom { display: flex; align-items: center; justify-content: space-between; gap: 28px; margin-top: 30px; }
+.wh-tech-section-bottom > p { margin: 0; font-size: 13px; line-height: 1.8; color: #4a7097; }
+.wh-tech-section-bottom > a { flex: 0 0 auto; }
+.wh-tech-vascular-layout { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 90px; }
+.wh-tech-vascular-copy > p:not(.wh-eyebrow) { max-width: 540px; }
+.wh-tech-vascular-panel { padding: 34px; background: #f4f9ff; border: 1px solid #d4e5f5; border-radius: 15px; }
+.wh-tech-panel-heading { display: flex; gap: 20px; align-items: center; margin-bottom: 29px; }
+.wh-tech-panel-heading > img { flex: 0 0 auto; object-fit: contain; }
+.wh-tech-panel-heading h3 { margin: 0; font-size: 21px; line-height: 1.4; }
+.wh-tech-condition-links { margin-top: 28px; padding-top: 23px; border-top: 1px solid #d4e3f2; display: grid; gap: 12px; }
+.wh-tech-condition-links p { margin: 0 0 2px; color: var(--wh-text); font-size: 12px; line-height: 1.8; }
+.wh-tech-condition-links a { display: flex; align-items: center; justify-content: space-between; gap: 18px; font-size: 13px; line-height: 1.6; font-weight: 600; color: var(--wh-blue); }
+.wh-tech-condition-links a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.wh-tech-condition-links a > span { font-size: 18px; font-weight: 400; }
+.wh-tech-advanced-section { border-block: 1px solid #e1ebf6; background: #f6faff; }
+.wh-tech-treatment-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.wh-tech-treatment-grid article { display: flex; flex-direction: column; align-items: flex-start; min-width: 0; border: 1px solid #d4e4f4; border-radius: 14px; background: #fff; padding: 33px; }
+.wh-tech-treatment-heading { display: flex; justify-content: space-between; align-items: center; width: 100%; margin-bottom: 25px; }
+.wh-tech-treatment-heading span { color: #7095ba; font-size: 11px; font-weight: 600; }
+.wh-tech-treatment-heading img { object-fit: contain; }
+.wh-tech-treatment-grid h3 { margin: 0 0 18px; font-size: 25px; line-height: 1.35; max-width: 450px; }
+.wh-tech-treatment-grid p { margin: 0 0 27px; font-size: 14px; line-height: 1.8; color: var(--wh-text); max-width: 460px; }
+.wh-tech-treatment-grid .wh-text-link { margin-top: auto; }
+.wh-tech-clinical-note { border-top: 1px solid #d4e3f3; margin: 28px 0 0; padding-top: 24px; font-size: 13px; color: #4a7097; line-height: 1.8; }
+.wh-tech-settings-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 20px; }
+.wh-tech-settings-grid article { min-width: 0; padding-top: 25px; border-top: 1px solid #d4e3f3; }
+.wh-tech-settings-grid img { display: block; margin-bottom: 23px; object-fit: contain; }
+.wh-tech-settings-grid h3 { font-size: 18px; line-height: 1.4; margin: 0 0 14px; }
+.wh-tech-settings-grid p { color: var(--wh-text); font-size: 13px; line-height: 1.8; margin: 0; max-width: 240px; }
+.wh-tech-coordination-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 62px; align-items: center; }
+.wh-tech-care-team { border: 1px solid #d4e4f4; border-radius: 15px; padding: 33px; background: #fff; }
+.wh-tech-care-team h3 { font-size: 22px; line-height: 1.4; margin: 0 0 25px; }
+.wh-tech-care-team ul { display: grid; grid-template-columns: 1fr 1fr; list-style: none; margin: 0; padding: 0; gap: 12px; }
+.wh-tech-care-team li { display: flex; align-items: center; min-height: 58px; border: 1px solid #dceaf6; border-radius: 8px; padding: 15px; color: #385e84; font-size: 13px; font-weight: 550; line-height: 1.7; background: #f7fbff; }
+.wh-tech-care-team li:last-child { grid-column: 1 / -1; }
+.wh-tech-coordination-support > h3 { font-size: 20px; margin: 0 0 25px; line-height: 1.5; }
+.wh-tech-coordination-support article { display: flex; align-items: flex-start; gap: 22px; border-top: 1px solid #cedff0; padding-block: 21px; }
+.wh-tech-coordination-support article:last-child { padding-bottom: 0; }
+.wh-tech-coordination-support article > span { color: #7597bb; font-size: 11px; line-height: 1.8; padding-top: 4px; }
+.wh-tech-coordination-support h4 { font-size: 20px; font-weight: 650; letter-spacing: -.018em; line-height: 1.4; margin: 0 0 9px; }
+.wh-tech-coordination-support p { font-size: 14px; color: var(--wh-text); line-height: 1.8; margin: 0; }
+.wh-tech-why-copy { position: static; }
+.wh-tech-why-copy > p:not(.wh-eyebrow) { max-width: 430px; }
+.wh-technology-page .wh-audience-card { background: #fff; }
+.wh-technology-page .wh-audience-card .wh-home-actions, .wh-technology-page .wh-audience-card .wh-referral-choice { margin-top: auto; padding-top: 21px; }
+@media (max-width: 1150px) {
+  .wh-tech-overview-intro { gap: 55px; }
+  .wh-tech-workflow-grid > a { padding: 27px 22px; }
+  .wh-tech-workflow-grid h3 { font-size: 21px; }
+  .wh-tech-documentation-layout { gap: 45px; }
+  .wh-tech-diagnostic-grid { gap: 18px; }
+  .wh-tech-diagnostic-grid article { padding: 29px 24px; }
+  .wh-tech-vascular-layout { gap: 55px; }
+  .wh-tech-vascular-panel { padding: 29px; }
+  .wh-tech-settings-grid { grid-template-columns: repeat(6, 1fr); gap: 32px; }
+  .wh-tech-settings-grid article { grid-column: span 2; }
+  .wh-tech-settings-grid article:nth-last-child(-n+2) { grid-column: span 3; }
+  .wh-tech-coordination-layout { gap: 40px; }
+  .wh-tech-care-team { padding: 29px; }
+}
+@media (max-width: 880px) {
+  .wh-tech-overview-intro { grid-template-columns: 1fr; gap: 30px; }
+  .wh-tech-overview-intro p:not(.wh-eyebrow) { max-width: 650px; }
+  .wh-tech-workflow-grid { grid-template-columns: 1fr 1fr; }
+  .wh-tech-documentation-layout { grid-template-columns: 1fr; gap: 38px; }
+  .wh-tech-documentation-image { min-height: 0; aspect-ratio: 1.45; }
+  .wh-tech-documentation-copy > p:not(.wh-eyebrow) { max-width: 650px; }
+  .wh-tech-diagnostic-grid { grid-template-columns: 1fr 1fr; }
+  .wh-tech-diagnostic-grid article:last-child { grid-column: 1 / -1; }
+  .wh-tech-diagnostic-grid p { max-width: 560px; }
+  .wh-tech-section-bottom { flex-direction: column; align-items: flex-start; gap: 16px; }
+  .wh-tech-vascular-layout { grid-template-columns: 1fr; gap: 35px; }
+  .wh-tech-vascular-copy > p:not(.wh-eyebrow) { max-width: 650px; }
+  .wh-tech-settings-grid { grid-template-columns: 1fr 1fr; }
+  .wh-tech-settings-grid article, .wh-tech-settings-grid article:nth-last-child(-n+2) { grid-column: auto; }
+  .wh-tech-settings-grid article:last-child { grid-column: 1 / -1; }
+  .wh-tech-settings-grid p { max-width: 440px; }
+  .wh-tech-coordination-layout { grid-template-columns: 1fr; gap: 35px; }
+}
+@media (max-width: 600px) {
+  .wh-tech-hero .wh-home-actions .wh-button { font-size: 12px; padding-inline: 15px; }
+  .wh-tech-overview-intro { gap: 27px; margin-bottom: 30px; }
+  .wh-tech-overview-intro p:not(.wh-eyebrow) { font-size: 14px; }
+  .wh-tech-workflow-grid { gap: 12px; }
+  .wh-tech-workflow-grid > a { padding: 25px 19px; }
+  .wh-tech-workflow-grid h3 { font-size: 19px; }
+  .wh-tech-workflow-grid img { width: 32px; height: 32px; margin-bottom: 18px; }
+  .wh-tech-workflow-grid p { font-size: 12px; }
+  .wh-tech-workflow-index { top: 25px; right: 18px; font-size: 10px; }
+  .wh-tech-documentation-image { aspect-ratio: 1.05; border-radius: 14px; }
+  .wh-tech-documentation-image figcaption { left: 15px; right: 15px; bottom: 15px; padding: 17px; font-size: 14px; }
+  .wh-tech-documentation-copy > p:not(.wh-eyebrow), .wh-tech-vascular-copy > p:not(.wh-eyebrow) { font-size: 14px; margin-block: 20px; }
+  .wh-tech-check-list { grid-template-columns: 1fr; gap: 14px; }
+  .wh-tech-check-list li { font-size: 13px; }
+  .wh-tech-diagnostic-grid { grid-template-columns: 1fr; gap: 12px; }
+  .wh-tech-diagnostic-grid article:last-child { grid-column: auto; }
+  .wh-tech-diagnostic-grid article { padding: 28px 24px; }
+  .wh-tech-diagnostic-grid h3 { font-size: 20px; }
+  .wh-tech-diagnostic-grid p { font-size: 13px; }
+  .wh-tech-section-bottom > p { font-size: 12px; }
+  .wh-tech-section-bottom > a { font-size: 12px; }
+  .wh-tech-vascular-panel { padding: 28px 23px; border-radius: 13px; }
+  .wh-tech-panel-heading { gap: 17px; }
+  .wh-tech-panel-heading > img { width: 40px; height: 40px; }
+  .wh-tech-panel-heading h3 { font-size: 20px; }
+  .wh-tech-treatment-grid { grid-template-columns: 1fr; gap: 13px; }
+  .wh-tech-treatment-grid article { padding: 29px 24px; }
+  .wh-tech-treatment-grid h3 { font-size: 23px; }
+  .wh-tech-treatment-grid p { font-size: 13px; }
+  .wh-tech-treatment-grid .wh-text-link { font-size: 12px; }
+  .wh-tech-clinical-note { font-size: 12px; }
+  .wh-tech-settings-grid { grid-template-columns: 1fr; gap: 26px; }
+  .wh-tech-settings-grid article:last-child { grid-column: auto; }
+  .wh-tech-settings-grid article { padding-top: 25px; }
+  .wh-tech-settings-grid h3 { font-size: 21px; }
+  .wh-tech-settings-grid p { font-size: 14px; }
+  .wh-tech-care-team { padding: 28px 23px; border-radius: 13px; }
+  .wh-tech-care-team h3 { font-size: 21px; }
+  .wh-tech-care-team ul { grid-template-columns: 1fr; gap: 10px; }
+  .wh-tech-care-team li { min-height: 50px; }
+  .wh-tech-coordination-support > h3 { font-size: 19px; }
+  .wh-tech-coordination-support article { gap: 17px; }
+  .wh-tech-coordination-support h4 { font-size: 20px; }
+  .wh-tech-coordination-support p { font-size: 13px; }
+  .wh-tech-why-copy .wh-button { font-size: 12px; padding-inline: 15px; width: 100%; }
+  .wh-technology-page .wh-audience-card h3 { font-size: 28px; }
+  .wh-technology-page .wh-care-austin-copy > .wh-text-link { font-size: 12px; gap: 12px; }
+}
+@media (max-width: 360px) {
+  .wh-tech-workflow-grid { grid-template-columns: 1fr; }
+  .wh-tech-workflow-grid p { max-width: none; }
+}

@@ -1,0 +1,102 @@
+.wh-wounds-hero h1 { font-size: clamp(48px, 4.7vw, 66px); }
+.wh-wounds-hero .wh-care-hero-visual { aspect-ratio: 1.06; }
+.wh-wounds-hero .wh-care-hero-visual > img { object-position: 100% 50%; }
+.wh-wound-jump-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; list-style: none; margin: 0; padding: 0; }
+.wh-wound-jump-grid li { min-width: 0; }
+.wh-wound-jump-grid a { display: flex; align-items: center; height: 100%; gap: 17px; padding: 25px 22px; border-radius: 12px; border: 1px solid #d3e4f4; background: #fff; min-height: 110px; transition: background .18s ease, border-color .18s ease; }
+.wh-wound-jump-grid a:hover { background: #f9fcff; border-color: #88b8e9; }
+.wh-wound-jump-grid img { flex: 0 0 auto; object-fit: contain; }
+.wh-wound-jump-grid a > span:not(.wh-wound-jump-arrow) { font-size: 15px; font-weight: 600; line-height: 1.5; }
+.wh-wound-jump-arrow { color: var(--wh-blue); margin-left: auto; font-size: 20px; flex: 0 0 auto; }
+.wh-wound-detail { padding-block: 70px; border-bottom: 1px solid #e6eef7; }
+.wh-wound-detail-tint { background: #f7faff; }
+.wh-wound-detail-layout { display: grid; grid-template-columns: 1.08fr 1fr; gap: 90px; align-items: center; }
+.wh-wound-section-marker { display: flex; align-items: center; gap: 19px; margin-bottom: 25px; }
+.wh-wound-section-marker > span { display: grid; place-items: center; width: 34px; height: 34px; color: var(--wh-blue); background: #edf6ff; border: 1px solid #d6e8f8; border-radius: 50%; font-size: 11px; font-weight: 650; }
+.wh-wound-section-marker > img { object-fit: contain; }
+.wh-wound-detail-copy .wh-eyebrow { font-size: 10px; margin-bottom: 16px; }
+.wh-wound-detail h2 { font-size: 35px; line-height: 1.2; }
+.wh-wound-detail-copy > p:not(.wh-eyebrow) { font-size: 15px; line-height: 1.8; color: var(--wh-text); margin: 23px 0; max-width: 580px; }
+.wh-wound-detail-copy > .wh-button, .wh-wound-detail-copy > .wh-home-actions { margin-top: 28px; }
+.wh-wound-detail .wh-button { font-size: 13px; }
+.wh-wound-context-link { display: flex; justify-content: flex-start; align-items: center; gap: 16px; margin-top: 23px; max-width: 550px; line-height: 1.7; }
+.wh-wound-care-panel { padding: 33px 35px; border: 1px solid #d7e6f4; border-radius: 14px; background: #f1f7fe; }
+.wh-wound-detail-tint .wh-wound-care-panel { background: #fff; }
+.wh-wound-care-panel h3 { margin: 0 0 23px; font-size: 18px; line-height: 1.5; max-width: 450px; }
+.wh-wound-care-panel ul { padding: 0; margin: 0; list-style: none; display: grid; gap: 13px; }
+.wh-wound-care-panel li { display: flex; align-items: baseline; gap: 12px; font-size: 14px; line-height: 1.7; color: #42658a; }
+.wh-wound-care-panel li::before { content: "✓"; color: var(--wh-blue); font-size: 12px; flex: 0 0 auto; }
+.wh-wound-care-panel > .wh-text-link { border-top: 1px solid #d7e6f4; padding-top: 22px; margin-top: 24px; }
+.wh-wound-contact-layout { display: grid; grid-template-columns: 1fr 1.1fr; gap: 90px; align-items: center; }
+.wh-wound-contact-description { color: #bed3e9; font-size: 16px; line-height: 1.8; margin: 23px 0 28px; }
+.wh-wound-concern-list { display: grid; gap: 16px; list-style: none; padding: 0; margin: 0; }
+.wh-wound-concern-list li { display: flex; align-items: baseline; gap: 15px; color: #d3e3f4; font-size: 14px; line-height: 1.7; }
+.wh-wound-concern-list li::before { content: "·"; color: #89bdfa; font-size: 24px; line-height: 0; }
+.wh-wound-safety-note { display: flex; align-items: center; gap: 40px; border: 1px solid #ffffff35; border-radius: 10px; padding: 22px 26px; margin-top: 42px; background: #ffffff06; }
+.wh-wound-safety-note strong { flex: 0 0 auto; font-size: 13px; color: #fff; }
+.wh-wound-safety-note p { margin: 0; color: #c5d9ed; font-size: 13px; line-height: 1.8; }
+.wh-wounds-process-actions { align-items: center; flex-wrap: wrap; gap: 24px 32px; }
+.wh-wound-page .wh-care-austin-layout { align-items: center; }
+.wh-wounds-austin-list { display: grid; grid-template-columns: 1fr 1fr; gap: 11px 22px; list-style: none; padding: 0; margin: 0; }
+.wh-wounds-austin-list li { display: flex; gap: 8px; font-size: 13px; line-height: 1.7; color: #42658a; }
+.wh-wounds-austin-list li::before { content: "✓"; color: var(--wh-blue); font-size: 12px; }
+.wh-wound-page .wh-audience-card { background: #fff; }
+.wh-wound-page .wh-audience-card .wh-home-actions, .wh-wound-page .wh-audience-card .wh-referral-choice { margin-top: auto; padding-top: 21px; }
+.wh-wound-page .wh-final-cta-layout .wh-home-actions { flex-direction: column; align-items: stretch; }
+@media (max-width: 1150px) {
+  .wh-wounds-hero h1 { font-size: 54px; }
+  .wh-wound-jump-grid a { gap: 12px; padding: 22px 18px; }
+  .wh-wound-jump-grid a > span:not(.wh-wound-jump-arrow) { font-size: 13px; }
+  .wh-wound-jump-grid img { width: 32px; height: 32px; }
+  .wh-wound-detail-layout { gap: 55px; }
+  .wh-wound-detail h2 { font-size: 33px; }
+  .wh-wound-care-panel { padding: 30px; }
+  .wh-wound-contact-layout { gap: 60px; }
+}
+@media (max-width: 880px) {
+  .wh-wounds-hero h1 { font-size: 64px; }
+  .wh-wounds-hero .wh-care-hero-visual { aspect-ratio: 1.45; }
+  .wh-wound-jump-grid { grid-template-columns: 1fr 1fr; }
+  .wh-wound-jump-grid a { padding: 24px; min-height: 100px; }
+  .wh-wound-jump-grid a > span:not(.wh-wound-jump-arrow) { font-size: 16px; }
+  .wh-wound-jump-grid img { width: 38px; height: 38px; }
+  .wh-wound-detail { padding-block: 58px; }
+  .wh-wound-detail-layout { grid-template-columns: 1fr; gap: 32px; }
+  .wh-wound-detail-copy > p:not(.wh-eyebrow) { max-width: 650px; }
+  .wh-wound-care-panel { padding: 32px; }
+  .wh-wound-care-panel h3 { max-width: none; }
+  .wh-wound-contact-layout { grid-template-columns: 1fr; gap: 34px; }
+  .wh-wound-safety-note { align-items: flex-start; flex-direction: column; gap: 12px; }
+}
+@media (max-width: 600px) {
+  .wh-wounds-hero h1 { font-size: clamp(45px, 12vw, 64px); }
+  .wh-wounds-hero .wh-care-hero-visual { aspect-ratio: 1.05; }
+  .wh-wounds-hero .wh-home-actions .wh-button { font-size: 12px; padding-inline: 15px; }
+  .wh-wound-jump-grid { gap: 12px; }
+  .wh-wound-jump-grid a { flex-direction: column; align-items: flex-start; padding: 21px 18px; gap: 16px; min-height: 160px; }
+  .wh-wound-jump-grid a > span:not(.wh-wound-jump-arrow) { font-size: 14px; }
+  .wh-wound-jump-grid .wh-wound-jump-arrow { display: none; }
+  .wh-wound-jump-grid img { width: 33px; height: 33px; }
+  .wh-wound-detail { padding-block: 48px; }
+  .wh-wound-section-marker { margin-bottom: 21px; }
+  .wh-wound-detail h2 { font-size: 29px; }
+  .wh-wound-detail-copy > p:not(.wh-eyebrow) { font-size: 14px; margin-block: 20px; }
+  .wh-wound-detail .wh-button { width: 100%; white-space: normal; min-height: 49px; padding: 14px 15px; font-size: 12px; line-height: 1.5; }
+  .wh-wound-detail-copy > .wh-home-actions { display: block; }
+  .wh-wound-context-link { font-size: 12px; }
+  .wh-wound-care-panel { padding: 27px 23px; }
+  .wh-wound-care-panel h3 { font-size: 17px; margin-bottom: 20px; }
+  .wh-wound-care-panel li { font-size: 13px; gap: 9px; }
+  .wh-wound-care-panel > .wh-text-link { font-size: 12px; }
+  .wh-wound-contact-description { font-size: 14px; }
+  .wh-wound-contact-section .wh-button { width: 100%; font-size: 12px; padding-inline: 15px; }
+  .wh-wound-concern-list { gap: 14px; }
+  .wh-wound-concern-list li { font-size: 13px; gap: 12px; }
+  .wh-wound-safety-note { padding: 24px; margin-top: 32px; }
+  .wh-wound-safety-note p { font-size: 12px; }
+  .wh-wounds-process-actions { gap: 22px; }
+  .wh-wounds-austin-list { gap: 12px 15px; }
+  .wh-wounds-austin-list li { font-size: 12px; }
+  .wh-wound-page .wh-audience-card h3 { font-size: 28px; }
+  .wh-wound-page .wh-home-final-cta .wh-button { font-size: 12px; padding-inline: 15px; }
+}

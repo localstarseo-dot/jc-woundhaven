@@ -1,0 +1,98 @@
+/* Progressive enhancement only. Native links, card hit areas, and layout stay intact. */
+.wh-site :is(.wh-linked-card, .wh-tech-workflow-grid > a, .wh-wound-jump-grid a) {
+  transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease, background .18s ease;
+}
+
+.wh-site :is(a, button, summary).wh-button {
+  transition: transform .18s ease, background .18s ease, border-color .18s ease, box-shadow .18s ease;
+}
+
+.wh-site :is(a.wh-button > svg, .wh-text-link > span[aria-hidden="true"], .wh-tech-workflow-arrow, .wh-wound-jump-arrow) {
+  display: inline-block;
+  transition: transform .2s ease;
+}
+
+/* An obvious keyboard state is available even when motion is disabled. */
+.wh-site .wh-linked-card:has(.wh-card-link:focus-visible),
+.wh-site .wh-tech-workflow-grid > a:focus-visible,
+.wh-site .wh-wound-jump-grid a:focus-visible {
+  border-color: #88b8e9;
+  box-shadow: 0 12px 26px #0b2d5b12, 0 2px 6px #0b2d5b08;
+}
+
+.wh-site :is(a, button:not(:disabled), summary).wh-button-blue:focus-visible {
+  background: #004899;
+  box-shadow: 0 5px 12px #0057b82a;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  /* Reveal targets remain readable while waiting for their one-time entrance. */
+  .wh-motion-enabled .wh-motion-reveal {
+    opacity: .92;
+    transform: translateY(12px);
+    transition: opacity .48s ease, transform .48s cubic-bezier(.2, .65, .3, 1);
+  }
+
+  .wh-motion-enabled .wh-motion-reveal.wh-motion-in-view {
+    opacity: 1;
+    transform: none;
+  }
+
+  .wh-site .wh-linked-card:has(.wh-card-link:focus-visible),
+  .wh-site .wh-tech-workflow-grid > a:focus-visible,
+  .wh-site .wh-wound-jump-grid a:focus-visible {
+    transform: translateY(-4px);
+  }
+
+  /* Never transform .wh-card-link itself: its pseudo-element covers the card. */
+  .wh-site a.wh-button:not(.wh-card-link):focus-visible {
+    transform: translateY(-2px);
+  }
+
+  .wh-site a.wh-button:focus-visible > svg,
+  .wh-site .wh-text-link:focus-visible > span[aria-hidden="true"] {
+    transform: translateX(3px);
+  }
+
+  .wh-site :is(.wh-tech-workflow-grid > a, .wh-wound-jump-grid a):focus-visible > :is(.wh-tech-workflow-arrow, .wh-wound-jump-arrow) {
+    transform: translateY(3px);
+  }
+}
+
+/* Touch screens do not receive hover-only motion. */
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .wh-site :is(.wh-linked-card, .wh-tech-workflow-grid > a, .wh-wound-jump-grid a):hover {
+    transform: translateY(-4px);
+    border-color: #88b8e9;
+    box-shadow: 0 12px 26px #0b2d5b12, 0 2px 6px #0b2d5b08;
+  }
+
+  .wh-site a.wh-button:not(.wh-card-link):hover {
+    transform: translateY(-2px);
+  }
+
+  .wh-site a.wh-button:hover > svg,
+  .wh-site .wh-text-link:hover > span[aria-hidden="true"],
+  .wh-site .wh-linked-card:hover .wh-text-link > span[aria-hidden="true"],
+  .wh-site .wh-linked-card:hover a.wh-card-link.wh-button > svg {
+    transform: translateX(3px);
+  }
+
+  .wh-site :is(.wh-tech-workflow-grid > a, .wh-wound-jump-grid a):hover > :is(.wh-tech-workflow-arrow, .wh-wound-jump-arrow) {
+    transform: translateY(3px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:has(body.wh-site) { scroll-behavior: auto; }
+
+  .wh-site *, .wh-site *::before, .wh-site *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  .wh-motion-enabled .wh-motion-reveal {
+    opacity: 1;
+    transform: none;
+  }
+}

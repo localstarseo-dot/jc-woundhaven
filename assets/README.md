@@ -1,58 +1,70 @@
 # Wound Haven Asset Inventory
 
-This folder is the source library for the Wound Haven website. Keep these original files intact. Create web-optimized derivatives separately when the site is built.
+This folder is the source library for the local Wound Haven mockup. JC replaced the previous photo folders with seven named batches on October 2, 2026. The new source images are preserved; responsive WebP derivatives live separately in `assets/web/`.
 
-## Inventory
+## Current brand direction
 
-| Category | Files | Source dimensions | Intended use |
-| --- | ---: | --- | --- |
-| Brand Logo | 6 | SVG plus WebP | Navigation, dark footer, and favicon |
-| Careers | 2 | 1448 × 1086 PNG | Recruitment and clinician-role content |
-| Mobile Care | 7 | 1448 × 1086 PNG | In-home care and mobile-service sections |
-| Patient Outcomes | 4 | 1536 × 1024 PNG | Comfort, support, caregiver, and progress messaging |
-| Service | 5 | 1448 × 1086 PNG | Assessment, dressing, bandaging, tracking, and care-planning sections |
-| Supporting Graphics | 0 | Empty | Reserved for future supporting artwork |
-| Team | 6 | 1448 × 1086 PNG | Team and about-page imagery |
-| Technology | 6 | 1536 × 1024 PNG | Allograft, ultrasound mist, imaging, tracking, and collaboration content |
-| Website Icons | 40 | 1254 × 1254 PNG; selected 512 × 512 SVG and 1024 × 1024 WebP | Service, process, referral, coverage, and trust indicators |
+Use the Wound Haven anchor and medical staff mark with the `WoundHaven` wordmark. Do not reintroduce the removed `Visiting Advanced Wound Care` tagline.
 
-Total inside `assets`: 76 files, excluding `.DS_Store` and this inventory.
-
-## Brand direction
-
-The separate `Brand Direction.png` board defines the current visual direction:
-
-- Haven Navy: `#15284C`
-- Clinical Blue: `#4475A7`
-- Care Cranberry: `#9F2843`
-- Ice Blue: `#F0F6F9`
-- Charcoal: `#333333`
+- Primary blue: `#0057B8`
+- Navy: `#0B2D5B`
+- Light blue: `#CFE8FF`
 - White: `#FFFFFF`
-- Proposed pillars: Trusted, Compassionate, Mobile, Advanced, and Clear
-- Typography is not final; the board explicitly marks final font selection as pending.
+- Brand cues: stability, trust, advanced care, mobile care
+- Actual artwork, despite reversed filenames: `Brand Logo/woundhaven_footer_logo_monochrome.svg` is the full-color header artwork; `Brand Logo/woundhaven_nav_logo.svg` is the white footer artwork.
+- The previous cranberry palette and earlier asset inventory are superseded, not current direction.
 
-## Recommended usage
+## Original library
 
-- Prefer the navigation SVG on light backgrounds and the reversed footer SVG on dark navy backgrounds.
-- Use the circular mark for favicon and compact-brand placements. A complete favicon package still needs standard browser and Apple touch PNG sizes or an `.ico` fallback.
-- Treat the PNG photography as high-resolution source files. Generate responsive WebP or AVIF derivatives before production use.
-- Prefer SVG for icons 17–24 where available. Keep PNG only as an editing/source fallback and WebP only where a raster fallback is needed.
-- Write contextual alt text based on each image's page role. Do not repeat the filename as alt text.
+| Folder | Files | Dimensions | Role |
+| --- | ---: | --- | --- |
+| WoundHaven_Batch1_Team_Providers | 6 PNGs | 1448 × 1086 | Human interaction and clinical preparation |
+| WoundHaven_Batch2_Mobile_Wound_Care | 7 PNGs | 1448 × 1086 | Arrivals, home consultation, patient/caregiver discussion |
+| WoundHaven_Batch3_Service_Treatment | 5 PNGs | First three approximately square; last two wide | Assessment, dressing, documentation, follow-up |
+| WoundHaven_Batch4_Technology | 6 PNGs | 1448 × 1086 | Tablet-supported documentation and coordination |
+| WoundHaven_Batch5_Patient_Outcomes | 4 PNGs | 1536 × 1024 | Human context; not clinical outcome evidence |
+| WoundHaven_Batch6_Careers | 2 PNGs | 1536 × 1024 | Held for future Careers |
+| WoundHaven_Batch7_Supporting_Graphics_Final | 6 PNGs | First three 1672 × 941; last three 1448 × 1086 | Patterns, clinical illustration, referral pathways, map |
+| Brand Logo | 6 SVG/WebP files | Vector and raster | Header, white footer, favicon |
+| Website Icons | 38 files | Existing supplied formats | Care, conditions, technology, referrals |
 
-## Items to resolve before production
+There are 36 PNGs across the seven new batches. Batches 1–6 total 56.70 MB. No file was renamed or edited in these original batch folders by this revision.
 
-1. The `Patient Outcomes ` directory currently has a trailing space in its source name. Rename it only when page references can be updated in the same change.
-2. Brand-logo filenames contain a download suffix, ` (1)`. Normalize production copies rather than overwriting these source files.
-3. `Supporting Graphics` is currently empty.
-4. Icons 18–21 use different descriptive names across their PNG and SVG/WebP versions. Confirm the intended concept before treating each numbered group as equivalent:
-   - 18: `insurance-approval` versus `insurance-coverage`
-   - 19: `covered-care` versus `medicare-coverage`
-   - 20: `service-area-coverage` versus `service-area`
-   - 21: `certified-specialist` versus `clinical-expertise`
-5. The source library is about 63 MB. Most photographs are 1.2–2.2 MB PNG files and should not be served directly on production pages.
-6. The photography and clinical technology visuals have a generated or composited appearance. Confirm licensing, provenance, medical accuracy, and permission before presenting people as actual staff or patients, devices as exact clinical equipment, or scenes as documented outcomes.
-7. No standalone tagline-lockup asset is included even though the brand-direction board displays one.
+## Selected website images
 
-## Production rule
+`scripts/prepare-assets.mjs` and `assets/web/manifest.json` are the current source-to-derivative mapping, including actual output dimensions and sizes.
 
-Preserve this folder as the source-of-truth asset library. Put renamed, compressed, responsive website derivatives in a separate production directory and keep a mapping back to each source file.
+| Website role | Selected source within its batch |
+| --- | --- |
+| Home hero | Batch 2 / 03_home_consultation.png |
+| Shared home/facility care image | Batch 2 / 07_patient_caregiver_provider.png |
+| Wound Care hero | Batch 2 / 04_treatment_plan_review.png |
+| Wound assessment | Batch 3 / 01_advanced_wound_assessment.png |
+| Wounds We Treat hero | Batch 2 / 06_non_graphic_wound_assessment.png |
+| About hero | Batch 1 / warm_home_healthcare_visit.png |
+| About mobile model | Batch 2 / 01_provider_arriving_at_home.png |
+| Technology hero | Batch 4 / 04_tablet_during_assessment.png |
+| Documentation sections | Batch 4 / 05_digital_clinical_documentation.png |
+| Homepage patient-centered support | Batch 5 / 03_family_caregiver_interaction.png |
+
+Team preparation is optimized as a spare, not added as a claimed staff portrait. Serving selected compressed derivatives rather than original PNGs keeps the mockup lighter. Asset compression is not a PageSpeed measurement.
+
+## Batch 7 decisions
+
+- Light pattern: faint section backgrounds on Home, About, and Technology.
+- Navy pattern: restrained texture behind existing navy sections and the main footer. It does not add a footer CTA.
+- Clinical technology graphic: decorative support in Technology, without named software, AI, or diagnostic-accuracy claims.
+- Patient/family and provider pathway graphics: their respective separate referral pages, accompanied by readable HTML steps. Contact stays form-free.
+- Texas map: held while Service Areas pages are excluded. Embedded wording is not a verified service boundary.
+
+## Scope and authenticity
+
+The Wound Care hub and current service content are retained. Individual future service pages and Service Areas pages are excluded for now; current pages contain no links to the excluded location routes. Careers is not added.
+
+The source files do not verify actual Wound Haven staff or patient identities, devices, licenses, consent, or clinical outcomes. These are illustrative mockup assets. Filenames such as `recovery_lifestyle` do not justify healed-patient, faster-healing, independence, or satisfaction claims.
+
+Before publishing, confirm provenance and rights, clinical accuracy, consent where required, and real business information. Replace illustrative artwork with verified real-team/home-visit photography where authenticity needs proof. Keep the approved logos intact; do not fabricate trust badges, credentials, testimonials, or outcomes.
+
+## Local-only rule
+
+No staging, commit, push, deployment, or publication without JC's explicit go signal. Original files remain the asset source of truth; derivatives can be regenerated from the mapping.

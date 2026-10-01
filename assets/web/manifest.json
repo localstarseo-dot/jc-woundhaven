@@ -1,0 +1,292 @@
+{
+  "note": "Resize/compression only. Original source photos remain unchanged. People and device provenance are not verified by this manifest.",
+  "images": [
+    {
+      "source": "assets/WoundHaven_Batch2_Mobile_Wound_Care/03_home_consultation.png",
+      "output": "assets/web/home-care-hero-640.webp",
+      "width": 640,
+      "height": 480,
+      "bytes": 35514
+    },
+    {
+      "source": "assets/WoundHaven_Batch2_Mobile_Wound_Care/03_home_consultation.png",
+      "output": "assets/web/home-care-hero-960.webp",
+      "width": 960,
+      "height": 720,
+      "bytes": 58848
+    },
+    {
+      "source": "assets/WoundHaven_Batch2_Mobile_Wound_Care/03_home_consultation.png",
+      "output": "assets/web/home-care-hero-1200.webp",
+      "width": 1200,
+      "height": 900,
+      "bytes": 77122
+    },
+    {
+      "source": "assets/WoundHaven_Batch2_Mobile_Wound_Care/07_patient_caregiver_provider.png",
+      "output": "assets/web/bedside-care-640.webp",
+      "width": 640,
+      "height": 480,
+      "bytes": 45786
+    },
+    {
+      "source": "assets/WoundHaven_Batch2_Mobile_Wound_Care/07_patient_caregiver_provider.png",
+      "output": "assets/web/bedside-care-960.webp",
+      "width": 960,
+      "height": 720,
+      "bytes": 82658
+    },
+    {
+      "source": "assets/WoundHaven_Batch4_Technology/05_digital_clinical_documentation.png",
+      "output": "assets/web/wound-documentation-640.webp",
+      "width": 640,
+      "height": 480,
+      "bytes": 44170
+    },
+    {
+      "source": "assets/WoundHaven_Batch4_Technology/05_digital_clinical_documentation.png",
+      "output": "assets/web/wound-documentation-960.webp",
+      "width": 960,
+      "height": 720,
+      "bytes": 78926
+    },
+    {
+      "source": "assets/WoundHaven_Batch2_Mobile_Wound_Care/04_treatment_plan_review.png",
+      "output": "assets/web/wound-care-hero-640.webp",
+      "width": 640,
+      "height": 480,
+      "bytes": 45114
+    },
+    {
+      "source": "assets/WoundHaven_Batch2_Mobile_Wound_Care/04_treatment_plan_review.png",
+      "output": "assets/web/wound-care-hero-960.webp",
+      "width": 960,
+      "height": 720,
+      "bytes": 77652
+    },
+    {
+      "source": "assets/WoundHaven_Batch2_Mobile_Wound_Care/04_treatment_plan_review.png",
+      "output": "assets/web/wound-care-hero-1200.webp",
+      "width": 1200,
+      "height": 900,
+      "bytes": 104416
+    },
+    {
+      "source": "assets/WoundHaven_Batch3_Service_Treatment/01_advanced_wound_assessment.png",
+      "output": "assets/web/wound-assessment-640.webp",
+      "width": 640,
+      "height": 627,
+      "bytes": 35518
+    },
+    {
+      "source": "assets/WoundHaven_Batch3_Service_Treatment/01_advanced_wound_assessment.png",
+      "output": "assets/web/wound-assessment-960.webp",
+      "width": 960,
+      "height": 941,
+      "bytes": 55118
+    },
+    {
+      "source": "assets/WoundHaven_Batch2_Mobile_Wound_Care/06_non_graphic_wound_assessment.png",
+      "output": "assets/web/wounds-we-treat-hero-640.webp",
+      "width": 640,
+      "height": 480,
+      "bytes": 39962
+    },
+    {
+      "source": "assets/WoundHaven_Batch2_Mobile_Wound_Care/06_non_graphic_wound_assessment.png",
+      "output": "assets/web/wounds-we-treat-hero-960.webp",
+      "width": 960,
+      "height": 720,
+      "bytes": 67910
+    },
+    {
+      "source": "assets/WoundHaven_Batch2_Mobile_Wound_Care/06_non_graphic_wound_assessment.png",
+      "output": "assets/web/wounds-we-treat-hero-1200.webp",
+      "width": 1200,
+      "height": 900,
+      "bytes": 91100
+    },
+    {
+      "source": "assets/WoundHaven_Batch1_Team_Providers/warm_home_healthcare_visit.png",
+      "output": "assets/web/about-hero-640.webp",
+      "width": 640,
+      "height": 480,
+      "bytes": 36304
+    },
+    {
+      "source": "assets/WoundHaven_Batch1_Team_Providers/warm_home_healthcare_visit.png",
+      "output": "assets/web/about-hero-960.webp",
+      "width": 960,
+      "height": 720,
+      "bytes": 60380
+    },
+    {
+      "source": "assets/WoundHaven_Batch1_Team_Providers/warm_home_healthcare_visit.png",
+      "output": "assets/web/about-hero-1200.webp",
+      "width": 1200,
+      "height": 900,
+      "bytes": 79276
+    },
+    {
+      "source": "assets/WoundHaven_Batch2_Mobile_Wound_Care/01_provider_arriving_at_home.png",
+      "output": "assets/web/about-care-model-640.webp",
+      "width": 640,
+      "height": 480,
+      "bytes": 37360
+    },
+    {
+      "source": "assets/WoundHaven_Batch2_Mobile_Wound_Care/01_provider_arriving_at_home.png",
+      "output": "assets/web/about-care-model-960.webp",
+      "width": 960,
+      "height": 720,
+      "bytes": 63932
+    },
+    {
+      "source": "assets/WoundHaven_Batch4_Technology/04_tablet_during_assessment.png",
+      "output": "assets/web/technology-hero-640.webp",
+      "width": 640,
+      "height": 480,
+      "bytes": 48232
+    },
+    {
+      "source": "assets/WoundHaven_Batch4_Technology/04_tablet_during_assessment.png",
+      "output": "assets/web/technology-hero-960.webp",
+      "width": 960,
+      "height": 720,
+      "bytes": 88056
+    },
+    {
+      "source": "assets/WoundHaven_Batch4_Technology/04_tablet_during_assessment.png",
+      "output": "assets/web/technology-hero-1200.webp",
+      "width": 1200,
+      "height": 900,
+      "bytes": 121180
+    },
+    {
+      "source": "assets/WoundHaven_Batch5_Patient_Outcomes/03_family_caregiver_interaction.png",
+      "output": "assets/web/patient-centered-care-640.webp",
+      "width": 640,
+      "height": 427,
+      "bytes": 36850
+    },
+    {
+      "source": "assets/WoundHaven_Batch5_Patient_Outcomes/03_family_caregiver_interaction.png",
+      "output": "assets/web/patient-centered-care-960.webp",
+      "width": 960,
+      "height": 640,
+      "bytes": 65698
+    },
+    {
+      "source": "assets/WoundHaven_Batch1_Team_Providers/woundhaven_team_preparing_together.png",
+      "output": "assets/web/team-preparation-640.webp",
+      "width": 640,
+      "height": 480,
+      "bytes": 47960
+    },
+    {
+      "source": "assets/WoundHaven_Batch1_Team_Providers/woundhaven_team_preparing_together.png",
+      "output": "assets/web/team-preparation-960.webp",
+      "width": 960,
+      "height": 720,
+      "bytes": 83182
+    },
+    {
+      "source": "assets/WoundHaven_Batch1_Team_Providers/woundhaven_team_preparing_together.png",
+      "output": "assets/web/team-preparation-1200.webp",
+      "width": 1200,
+      "height": 900,
+      "bytes": 109566
+    },
+    {
+      "source": "assets/WoundHaven_Batch7_Supporting_Graphics_Final/01_light_woundhaven_brand_pattern.png",
+      "output": "assets/web/brand-pattern-light-960.webp",
+      "width": 960,
+      "height": 540,
+      "bytes": 18258
+    },
+    {
+      "source": "assets/WoundHaven_Batch7_Supporting_Graphics_Final/01_light_woundhaven_brand_pattern.png",
+      "output": "assets/web/brand-pattern-light-1440.webp",
+      "width": 1440,
+      "height": 810,
+      "bytes": 29860
+    },
+    {
+      "source": "assets/WoundHaven_Batch7_Supporting_Graphics_Final/02_dark_navy_woundhaven_brand_pattern.png",
+      "output": "assets/web/brand-pattern-navy-960.webp",
+      "width": 960,
+      "height": 540,
+      "bytes": 18548
+    },
+    {
+      "source": "assets/WoundHaven_Batch7_Supporting_Graphics_Final/02_dark_navy_woundhaven_brand_pattern.png",
+      "output": "assets/web/brand-pattern-navy-1440.webp",
+      "width": 1440,
+      "height": 810,
+      "bytes": 29108
+    },
+    {
+      "source": "assets/WoundHaven_Batch7_Supporting_Graphics_Final/03_clinical_technology_graphic.png",
+      "output": "assets/web/clinical-technology-graphic-640.webp",
+      "width": 640,
+      "height": 360,
+      "bytes": 13490
+    },
+    {
+      "source": "assets/WoundHaven_Batch7_Supporting_Graphics_Final/03_clinical_technology_graphic.png",
+      "output": "assets/web/clinical-technology-graphic-960.webp",
+      "width": 960,
+      "height": 540,
+      "bytes": 23684
+    },
+    {
+      "source": "assets/WoundHaven_Batch7_Supporting_Graphics_Final/03_clinical_technology_graphic.png",
+      "output": "assets/web/clinical-technology-graphic-1200.webp",
+      "width": 1200,
+      "height": 675,
+      "bytes": 32458
+    },
+    {
+      "source": "assets/WoundHaven_Batch7_Supporting_Graphics_Final/04_patient_family_referral_pathway.png",
+      "output": "assets/web/patient-referral-pathway-640.webp",
+      "width": 640,
+      "height": 480,
+      "bytes": 25426
+    },
+    {
+      "source": "assets/WoundHaven_Batch7_Supporting_Graphics_Final/04_patient_family_referral_pathway.png",
+      "output": "assets/web/patient-referral-pathway-960.webp",
+      "width": 960,
+      "height": 720,
+      "bytes": 40572
+    },
+    {
+      "source": "assets/WoundHaven_Batch7_Supporting_Graphics_Final/04_patient_family_referral_pathway.png",
+      "output": "assets/web/patient-referral-pathway-1200.webp",
+      "width": 1200,
+      "height": 900,
+      "bytes": 51722
+    },
+    {
+      "source": "assets/WoundHaven_Batch7_Supporting_Graphics_Final/05_healthcare_provider_referral_pathway.png",
+      "output": "assets/web/provider-referral-pathway-640.webp",
+      "width": 640,
+      "height": 480,
+      "bytes": 27754
+    },
+    {
+      "source": "assets/WoundHaven_Batch7_Supporting_Graphics_Final/05_healthcare_provider_referral_pathway.png",
+      "output": "assets/web/provider-referral-pathway-960.webp",
+      "width": 960,
+      "height": 720,
+      "bytes": 44112
+    },
+    {
+      "source": "assets/WoundHaven_Batch7_Supporting_Graphics_Final/05_healthcare_provider_referral_pathway.png",
+      "output": "assets/web/provider-referral-pathway-1200.webp",
+      "width": 1200,
+      "height": 900,
+      "bytes": 56824
+    }
+  ]
+}

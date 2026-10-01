@@ -1,0 +1,11 @@
+{
+  "name": "jc-woundhaven",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local Wound Haven website and reusable global components",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "prepare:assets": "node scripts/prepare-assets.mjs",
+    "preview": "node scripts/preview-server.mjs"
+  }
+}
