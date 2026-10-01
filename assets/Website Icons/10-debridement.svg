@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <g stroke-linecap="round" stroke-linejoin="round">
+
+    <g transform="rotate(-42 256 256)">
+      <path d="M94 250 L254 250 L324 218 L395 218 Q420 218 420 242 V270 Q420 294 395 294 H324 L254 262 H94 Z" fill="#FFFFFF" stroke="#0B2D5B" stroke-width="16"/>
+      <path d="M324 218 H395 Q420 218 420 242 V270 Q420 294 395 294 H324 Z" fill="#0057B8" stroke="#0057B8" stroke-width="8"/>
+      <path d="M94 250 L52 256 L94 262" fill="#CFE8FF" stroke="#0B2D5B" stroke-width="14"/>
+    </g>
+    <path d="M112 407 H140 M171 407 H199 M230 407 H258 M289 407 H317 M348 407 H376" stroke="#0057B8" stroke-width="14"/>
+
+  </g>
+</svg>
