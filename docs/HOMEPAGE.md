@@ -6,13 +6,13 @@ Status: built and Chromium QA-tested locally on October 2, 2026. Not published, 
 
 The supplied homepage brief is the copy source. The page focuses on Austin, TX, while supporting patient/family and healthcare-provider intent. Austin appears in the title, hero, service-area heading and location card, one FAQ, and relevant internal links. Houston and San Antonio remain supported locations. No keyword repetition, invented metrics, credentials, testimonials, named devices, or insurance-acceptance claims are added.
 
-The homepage includes hero, care-approach strip, eight wound categories, five care settings, eight services, navy Why Wound Haven section, four-step process, conditional technology section, separate referral pathways, three city cards, eight FAQs, and closing CTA. The shared sticky header omits Service Areas; the shared three-column footer has no embedded blue conversion CTA. Condition cards are unnumbered, full-card native links to matching sections of the built Wounds We Treat hub, not nonexistent individual pages. Ready service cards link to matching Wound Care sections; location cards remain plain while their destination pages are excluded.
+The homepage includes hero, eight wound categories, five care settings, eight services, navy Why Wound Haven section, four-step process, conditional technology section, separate referral pathways, three city cards, and eight FAQs. The FAQ section now flows directly into the shared footer. The shared sticky header omits Service Areas; the shared three-column footer has no embedded blue conversion CTA. Condition cards are unnumbered, full-card native links to matching sections of the built Wounds We Treat hub, not nonexistent individual pages. Ready service cards link to matching Wound Care sections; location cards remain plain while their destination pages are excluded.
 
-The four-point care-approach strip and its Austin, Houston, and San Antonio row now appear after the FAQs, directly above the homepage's blue “Let’s bring care closer” CTA, rather than below the hero. This is a section move only; copy, numbering, styling, and links are unchanged.
+JC's latest local request removes the four-point care-approach strip and its city row from the homepage. The blue closing CTA is also removed from Home, Wound Care, Wounds We Treat, About, and Technology. Header, footer, hero buttons, referral cards, and other contextual CTAs are unchanged.
 
 FAQ intro blocks are centered consistently on Home, Wound Care, Wounds We Treat, About, and Technology. This includes the eyebrow, heading, description, and contact link. The approved desktop two-column/mobile stacked layout and left-aligned question/answer text are preserved.
 
-The homepage hero CTAs are “Self Referral Form” → `/self-referral/` and “Patient Referral Form” → `/patient-referral/`. Other page-level CTAs remain unchanged. Referral pages are local disabled previews, not active submission forms.
+The homepage hero CTAs are “Self Referral Form” → `/self-referral/` and “Patient Referral Form” → `/patient-referral/`. Other contextual referral buttons remain unchanged; the separate blue closing CTA bands are removed. Referral pages are local disabled previews, not active submission forms.
 
 The insurance FAQ directs visitors to confirm requirements with Wound Haven. Clinical suitability qualifiers in the supplied service copy are retained. Technology capabilities remain conditional pending confirmation of actual systems.
 
@@ -50,7 +50,7 @@ Chromium layout checks covered 320, 390, 600, 768, 880, 1024, 1151, 1280, 1440, 
 
 This is browser-functional and visual QA, not a Lighthouse, PageSpeed, Core Web Vitals, assistive-technology, or full accessibility audit. HTTP 200 on a preview route does not mean its page or form is completed.
 
-Latest revisions: the care strip was verified once, directly between the FAQ and closing CTA, with its original content preserved. All five FAQ intro blocks passed centered-text/description/link and accordion open/close checks at 320, 390, 600, 880, and 1440 pixels; question/answer alignment and responsive columns are unchanged. The two hero CTA labels and button fit passed ten viewport checks from 320 to 1920 pixels, with four desktop/mobile clicks confirming the separate referral routes and their disabled previews. Desktop/mobile screenshots were visually inspected. Footer removal remains verified across all built pages. These changes are local only.
+Earlier revision QA: before the latest removal, the care strip was verified once between the FAQ and closing CTA. All five FAQ intro blocks passed centered-text/description/link and accordion open/close checks at 320, 390, 600, 880, and 1440 pixels; question/answer alignment and responsive columns are unchanged. The two hero CTA labels and button fit passed ten viewport checks from 320 to 1920 pixels, with four desktop/mobile clicks confirming the separate referral routes and their disabled previews. Desktop/mobile screenshots were visually inspected. Footer removal remains verified across all built pages. These changes are local only.
 
 ## Before public launch
 

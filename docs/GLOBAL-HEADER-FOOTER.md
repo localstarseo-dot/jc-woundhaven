@@ -42,7 +42,7 @@ JC's Contact revision supersedes the earlier Contact-section referral anchors:
 - Request Care / patient and family: `self-referral/`
 - Refer a Patient / provider and clinician: `patient-referral/`
 
-JC's latest adjustment removes Service Areas and its dropdown from primary/mobile navigation, removes the Service Areas footer column, and changes footer city names to plain contact text. The blue conversion band has been removed from the shared footer at JC's request; page-level closing CTAs remain unchanged. Footer columns are Brand/Contact, Wound Care, and Company. The remaining Refer Patient dropdown supports keyboard focus, Escape, click-outside dismissal, and accurate expanded states.
+JC's latest adjustment removes Service Areas and its dropdown from primary/mobile navigation, removes the Service Areas footer column, and changes footer city names to plain contact text. The blue conversion band has been removed from the shared footer at JC's request. The latest local revision also removes the blue page-level closing CTA bands across all five content pages and the homepage care strip. Header/referral buttons and footer text links remain unchanged. Footer columns are Brand/Contact, Wound Care, and Company. The remaining Refer Patient dropdown supports keyboard focus, Escape, click-outside dismissal, and accurate expanded states.
 
 ## Preview limitations and handoff
 
