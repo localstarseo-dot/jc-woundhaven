@@ -1,12 +1,12 @@
 # Phase 1 Technology page
 
-Status: built and Chromium QA-tested locally on October 2, 2026. Not committed, pushed, published, tracked, or performance-measured. No GitHub changes without JC's explicit go signal.
+Status: phone/coverage revision rebuilt and locally validated; JC authorized committing and pushing it on October 2, 2026. See `PHONE-AND-COVERAGE-UPDATE.md` for current local QA and `STAGING.md` for publication checks. Referral workflows remain inactive.
 
 ## Purpose and supplied direction
 
-`/technology/` supports technology and clinical innovation intent. Wound Care remains the commercial treatment/service hub; Austin's future location page owns stronger local intent. Copy follows JC's supplied Technology brief. All technology topics remain on this hub without new child URLs.
+`/technology/` supports technology and clinical innovation intent. Wound Care remains the commercial treatment/service hub. Copy follows JC's supplied Technology brief. Existing Austin-focused content stays; Service Areas and dedicated city pages remain excluded. All technology topics remain on this hub without new child URLs.
 
-The requested sequence is preserved: hero, technology overview, wound documentation and monitoring, diagnostic support, vascular assessment, advanced treatment technology, mobile/bedside workflows, care coordination, selective navy Why Technology Matters, one Austin bridge, separate patient/provider pathways, eight FAQs, and the blue final CTA. Approved header, pre-footer, and footer are shared unchanged.
+The retained sequence is hero, technology overview, wound documentation and monitoring, diagnostic support, vascular assessment, advanced treatment technology, mobile/bedside workflows, care coordination, selective navy Why Technology Matters, one Austin bridge, separate patient/provider pathways, eight FAQs, and shared footer. The blue final CTA and pre-footer band remain removed. Official call links use `(877) 288-1270` and `tel:+18772881270`; general coverage wording includes Austin, Houston, San Antonio, College Station, Corpus Christi, Beaumont, and surrounding areas without new location links or pages.
 
 Included content: three hero features; Document/Assess/Monitor/Coordinate jump cards; seven documentation areas; three generic diagnostic-support cards; four vascular assessment areas with venous/arterial/diabetic contextual links; two conditionally worded advanced-treatment cards; five care settings; seven care-team parties; four coordination-support areas; and five practical technology benefits.
 
@@ -41,7 +41,7 @@ Documentation: existing responsive derivatives of `assets/WoundHaven_Batch4_Tech
 
 The original assets are preserved. Supplied website icons and clean logo artwork are reused. Hero dimensions and high fetch priority are explicit; below-fold imagery is lazy loaded. The derivative manifest is a file mapping, not clinical proof. Confirm licensing, consent, actual staff identity, depicted branding, clinical accuracy, and technology availability before public release. Photography showing percentages, automatic wound outlines, and unconfirmed therapy equipment was not selected.
 
-## Local verification
+## Historical local verification
 
 Chromium checks passed at 320, 390, 600, 768, 880, 1024, 1151, 1280, 1440, and 1920 pixel widths: no horizontal page or visible text overflow, one H1, centered utility content, matching supplied metadata, thirteen ordered main sections, expected content counts, and unique IDs.
 
@@ -53,4 +53,4 @@ This is local functional/layout QA, not deployment verification, a full accessib
 
 ## Remaining release gates
 
-Eight pages are built locally, including the two referral previews. Service Areas and its city pages are excluded for now; the Wound Care hub remains available. Contact has no forms. Separate self-referral and patient-referral pages contain visibly inactive patient/family and provider previews. The phone number is a placeholder; referral forms and healthcare privacy handling are not connected. No form collects patient information. Confirm current clinical capabilities and all technology/diagnostic/treatment claims, photo provenance, remaining pages, required legal/privacy content, production metadata/domain, analytics, production QA, and performance before an authorized release. Keep local noindex until release approval.
+Eight pages are built locally, including the two referral previews. Service Areas and its city pages are excluded for now; the Wound Care hub remains available. Contact has no forms. Separate self-referral and patient-referral pages contain visibly inactive patient/family and provider previews. The official phone is supplied and implemented locally; the supplied business email still needs confirmation. Referral forms and healthcare privacy handling are not connected. No form collects patient information. Confirm current clinical capabilities and all technology/diagnostic/treatment claims, photo provenance, required legal/privacy content, production metadata/domain, analytics, production QA, and performance before an authorized production release. Keep local noindex until release approval. Current phone/coverage QA is recorded separately in `PHONE-AND-COVERAGE-UPDATE.md`.

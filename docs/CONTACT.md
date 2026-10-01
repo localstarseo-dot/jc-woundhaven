@@ -1,12 +1,14 @@
 # Contact and separate referral pages
 
-Status: built and Chromium QA-tested locally on October 2, 2026. Not staged, committed, pushed, published, tracked, or performance-measured. No GitHub changes without JC's explicit go signal.
+Status: phone/coverage revision rebuilt and locally validated; JC authorized committing and pushing it on October 2, 2026. See `PHONE-AND-COVERAGE-UPDATE.md` for current local QA and `STAGING.md` for publication checks. Referral workflows remain inactive.
 
 ## Current direction
 
 JC's latest revision supersedes the earlier eleven-section Contact brief and its embedded preview layouts. Contact is now a simple contact-information page with two sections: contact details and two referral choices. It has no form elements, input fields, select menus, textareas, form previews, or embedded forms. The general inquiry preview was removed, not moved elsewhere.
 
-Contact details include the supplied placeholder phone, business email pending confirmation, Austin/Houston/San Antonio names, and the mobile/bedside care model. The service-area card stays plain while those destination pages are unfinished. Ready referral and care-model cards are full-card native links. No office address, hours, response guarantee, credentials, or medical outcomes are invented.
+Contact details include the supplied official phone `(877) 288-1270`, linked as `tel:+18772881270`, business email pending confirmation, and coverage for Austin, Houston, San Antonio, College Station, Corpus Christi, Beaumont, and surrounding areas. The Service Areas hub and all dedicated city pages remain excluded; the coverage card is informational and has no location links. Ready referral and care-model cards are full-card native links. No office address, hours, response guarantee, credentials, or medical outcomes are invented.
+
+The three pathways stay distinct: patients/families choose Self Referral, healthcare providers choose Patient Referral, and general inquiries use the displayed phone/email information. No generic Contact form combines those workflows. Pending-phone notes and placeholder telephone accessibility labels are removed; business-email confirmation remains a separate gate.
 
 The linked examples were reviewed as separate-page routing references only:
 - https://www.woundlocal.com/self-referral
@@ -43,13 +45,13 @@ Contact and referral pages keep patient records separate from ordinary email and
 
 Run `npm run build` and `npm run preview`. Review `http://127.0.0.1:4178/contact/`, `http://127.0.0.1:4178/self-referral/`, and `http://127.0.0.1:4178/patient-referral/`. Edit source, not generated output. Supplied icons/logos and original assets are preserved. No new photo assets or dependencies are required.
 
-Contact title and description remain the supplied metadata:
+Contact metadata retains the title and updates the description for the official phone and separate pathways:
 - `Contact Wound Haven | Request Wound Care`
-- `Contact Wound Haven to request mobile wound care, refer a patient, or speak with our team. Serving Austin, Houston, San Antonio, and surrounding areas.`
+- `Contact Wound Haven at (877) 288-1270 for mobile wound care in our Texas service areas. Choose separate patient or healthcare-provider referral pathways.`
 
 All three pages retain local noindex/nofollow and project-relative links/assets.
 
-## Local verification
+## Historical local verification
 
 Chromium checks passed for all three pages at 320, 390, 600, 768, 880, 1024, 1151, 1280, 1440, and 1920 pixel widths: thirty page/viewport combinations without horizontal page, text, or field overflow. One H1 per page, centered utility content, unique IDs, all rendered image decoding, native field labels, and disabled controls were checked.
 
@@ -59,6 +61,6 @@ Desktop/mobile screenshots were visually reviewed. Fourteen preservation hashes 
 
 ## Remaining release gates
 
-Six original Phase 1 pages plus two separate referral preview pages are built locally. The four Service Areas routes are excluded for now. Confirm the actual phone number and business email. Approve secure referral destinations and privacy/data-handling workflows before enabling any collection or uploads. Clinical claims, photo provenance, legal/privacy content, remaining pages, production metadata, tracking, production QA, and performance remain release gates.
+Six original Phase 1 pages plus two separate referral preview pages are built locally. The four Service Areas routes remain excluded. The official phone is supplied and implemented locally; confirm the business email. Approve secure referral destinations and privacy/data-handling workflows before enabling any collection or uploads. Clinical claims, photo provenance, legal/privacy content, production metadata, tracking, production QA, and performance remain release gates. Current phone/coverage QA is recorded separately in `PHONE-AND-COVERAGE-UPDATE.md`.
 
 Keep local noindex until release approval. Do not stage, commit, push, or publish without JC's explicit go signal.

@@ -1,16 +1,16 @@
 # Phase 1 About page
 
-Status: built and Chromium QA-tested locally on October 2, 2026. Not committed, pushed, published, tracked, or performance-measured. No GitHub changes without JC's explicit go signal.
+Status: phone/coverage revision rebuilt and locally validated; JC authorized committing and pushing it on October 2, 2026. See `PHONE-AND-COVERAGE-UPDATE.md` for current local QA and `STAGING.md` for publication checks. Referral workflows remain inactive.
 
 ## Purpose and supplied direction
 
-`/about/` supports trust, brand understanding, the mobile care model, coordination, local relevance, and conversion. It does not replace the Wound Care commercial hub, Wounds We Treat condition hub, or Austin location page. Copy follows JC's supplied About brief.
+`/about/` supports trust, brand understanding, the mobile care model, coordination, local relevance, and conversion. It does not replace the Wound Care commercial hub or Wounds We Treat condition hub. Copy follows JC's supplied About brief and next-version coverage update. Service Areas and dedicated city pages remain excluded.
 
-The page follows the requested order: hero, who we are, care model, five care settings, clinical approach, selective navy Why Wound Haven, connected care, technology-supported care, one Austin bridge, separate patient/provider pathways, eight FAQs, and a blue final CTA. The existing pre-footer and footer follow unchanged.
+The page follows the retained order: hero, who we are, care model, five care settings, clinical approach, selective navy Why Wound Haven, connected care, technology-supported care, one Austin bridge, separate patient/provider pathways, eight FAQs, and shared footer. The blue final CTA and pre-footer band remain removed.
 
 The five brand pillars, ten clinical planning factors, five differentiation points, eight coordination parties, three communication features, and five generic technology-support areas are included. Technology claims retain conditional wording. No founding year, founder story, staff count, patient count, years of experience, credentials, accreditations, hospital partnerships, insurance relationships, outcome statistics, leadership biographies, or named devices are invented.
 
-Contextual links connect to Wound Care, Wounds We Treat, Technology, Service Areas, Austin, and Contact. Houston and San Antonio remain smaller secondary links. Request Care uses `/self-referral/`; the two-choice provider disclosure separates patient/family and provider destinations.
+Contextual links connect to Wound Care, Wounds We Treat, Technology, and Contact; excluded Service Areas/city routes do not appear as links. The care-model/coverage copy includes Austin, Houston, San Antonio, College Station, Corpus Christi, Beaumont, and surrounding areas while keeping the page focused on trust and the care model. Request Care uses `/self-referral/`; the two-choice provider disclosure separates patient/family and provider destinations. Official call links use `(877) 288-1270` and `tel:+18772881270`.
 
 ## Editable source and build
 
@@ -39,7 +39,7 @@ Originals are preserved and mappings are recorded in `assets/web/manifest.json`.
 
 These are supplied illustrative care images. The brief requests real Wound Haven clinicians, but actual staff identity and patient consent have not been verified; generic alt text does not claim those identities. Confirm provenance, licensing, depicted branding, and clinical accuracy before public release. Do not treat imagery as proof of actual care, outcomes, or staff credentials.
 
-## Local verification
+## Historical local verification
 
 Chromium checks covered 320, 390, 600, 768, 880, 1024, 1151, 1280, 1440, and 1920 pixel widths: no horizontal page or visible text overflow, centered utility content, and exactly one H1. Supplied metadata, twelve ordered main sections, expected content counts, and unique IDs were checked.
 
@@ -51,4 +51,4 @@ This is functional/layout QA, not a full accessibility audit, healthcare complia
 
 ## Remaining release gates
 
-Eight pages are built locally, including the two inactive referral previews. The four Service Areas routes and future individual service pages are excluded for now; the Wound Care hub is retained. The phone number is a placeholder and Contact has no forms; the separate self-referral and patient-referral pages contain disabled previews, not functional referral forms. No form collects patient information. Actual clinical scope, staff/photo provenance, devices or diagnostics, referral integrations and healthcare privacy handling, remaining pages, legal/privacy content, public-domain metadata, analytics, production QA, and performance measurement still require confirmation before an authorized release. Keep local noindex until release approval.
+Eight pages are built locally, including the two inactive referral previews. The four Service Areas routes and future individual service pages are excluded for now; the Wound Care hub is retained. The official phone is supplied and implemented locally; the supplied business email still needs confirmation. Contact has no forms; the separate self-referral and patient-referral pages contain disabled previews, not functional referral forms. No form collects patient information. Actual clinical scope, staff/photo provenance, devices or diagnostics, referral integrations and healthcare privacy handling, legal/privacy content, production-domain metadata, analytics, production QA, and performance measurement still require confirmation before an authorized production release. Keep local noindex until release approval. Current phone/coverage QA is recorded separately in `PHONE-AND-COVERAGE-UPDATE.md`.

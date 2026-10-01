@@ -1,18 +1,18 @@
 # Phase 1 Wounds We Treat condition hub
 
-Status: built and Chromium QA-tested locally on October 2, 2026. Not committed, pushed, published, tracked, or performance-measured. No GitHub changes without JC's explicit go signal.
+Status: phone/coverage revision rebuilt and locally validated; JC authorized committing and pushing it on October 2, 2026. See `PHONE-AND-COVERAGE-UPDATE.md` for current local QA and `STAGING.md` for publication checks. Referral workflows remain inactive.
 
 ## Purpose and supplied direction
 
-`/wounds-we-treat/` owns condition/problem intent. The supplied brief is the copy source. Wound Care remains the commercial treatment/service hub, and the future Austin location page retains stronger Austin-local intent.
+`/wounds-we-treat/` owns condition/problem intent. The supplied brief is the copy source. Wound Care remains the commercial treatment/service hub. Existing Austin-focused content stays; Service Areas and all dedicated city pages remain excluded.
 
 Eight approved wound types are separate sections, not child URLs: diabetic wounds, pressure injuries, venous wounds, arterial wounds, lymphedema-related wounds, burns/skin conditions, non-healing wounds, and complex wounds. The compact overview uses supplied brand icons and links to the eight section anchors. Headings explicitly name each condition.
 
 Supplied clinical qualifiers are retained. Arterial care emphasizes assessment and appropriate clinical review, not a uniform treatment. Burns and skin-related care remain broad pending confirmation of the actual scope. No credentials, outcomes, timelines, named devices, or insurance claims are invented. The supplied contact-concern list is not presented as emergency triage. A separate safety note states: “Wound Haven does not replace emergency medical care. Seek emergency care for urgent or life-threatening symptoms.”
 
-The page follows the supplied order: hero, wound overview, eight condition sections, when to contact, four-step getting-started process, five care settings, one Austin bridge, separate patient/provider actions, ten FAQs, final CTA, and the unchanged global footer/pre-footer components.
+The page follows the retained order: hero, wound overview, eight condition sections, when to contact, four-step getting-started process, five care settings, one Austin bridge, separate patient/provider actions, ten FAQs, and shared footer. The blue final CTA and pre-footer band remain removed.
 
-Condition sections link contextually to the Wound Care hub and its existing assessment, compression, and vascular section anchors. Complex wounds also link to Technology. Service Areas, Austin, About, and Contact are linked. Patient/family actions use `/self-referral/`; provider actions use `/patient-referral/` through the requested two-choice disclosure.
+Condition sections link contextually to the Wound Care hub and its existing assessment, compression, and vascular section anchors. Complex wounds also link to Technology. About and Contact remain linked; excluded Service Areas/city routes do not. Patient/family actions use `/self-referral/`; provider actions use `/patient-referral/` through the requested two-choice disclosure. Official call links use `(877) 288-1270` and `tel:+18772881270`. General coverage wording includes Austin, Houston, San Antonio, College Station, Corpus Christi, Beaumont, and surrounding areas without adding location cards or pages.
 
 ## Editable source and build
 
@@ -36,7 +36,7 @@ The hero uses responsive WebP resize/compression derivatives of `assets/WoundHav
 
 The imagery is supplied illustrative care content, not independently verified proof of actual staff, patient consent, clinical outcomes, or services performed. Confirm provenance, licensing, depicted branding, and clinical accuracy before public release. Existing icons are used as broad care-category cues, not diagnostic illustrations.
 
-## Local verification
+## Historical local verification
 
 Chromium checks covered 320, 390, 600, 768, 880, 1024, 1151, 1280, 1440, and 1920 pixel widths: no horizontal overflow, exactly one H1, centered utility bar, matching metadata, unique IDs, eight overview links and condition sections, expected care-list counts, nine contact concerns, four process steps, five settings, and ten FAQs.
 
@@ -46,4 +46,4 @@ A simulated `/jc-woundhaven/` URL prefix verified project-relative assets, home 
 
 ## Remaining release gates
 
-The local preview has six built pages and four unfinished Service Areas routes. Contact has no forms; the separate self-referral and patient-referral pages contain disabled previews, not connected forms. The actual phone number, referral form integrations and healthcare privacy handling, clinical scope and claim review, photo provenance, remaining pages, legal/privacy pages, public-domain metadata, tracking, production QA, and performance measurement remain outstanding. No form collects patient information. Keep local noindex until an authorized release.
+Eight retained pages are built, including the two inactive referral previews; the four Service Areas routes remain excluded. Contact has no forms; the separate self-referral and patient-referral pages contain disabled previews, not connected forms. The official phone is supplied and implemented locally; the supplied business email still needs confirmation. Referral form integrations and healthcare privacy handling, clinical scope and claim review, photo provenance, legal/privacy pages, production-domain metadata, tracking, production QA, and performance measurement remain outstanding. No form collects patient information. Keep local noindex until an authorized production release. Current phone/coverage QA is recorded separately in `PHONE-AND-COVERAGE-UPDATE.md`.

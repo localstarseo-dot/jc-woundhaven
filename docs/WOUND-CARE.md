@@ -1,6 +1,6 @@
 # Phase 1 Wound Care service hub
 
-Status: built and Chromium QA-tested locally on October 2, 2026. Not committed, pushed, published, tracked, or performance-measured. GitHub changes require JC's explicit go signal.
+Status: phone/coverage revision rebuilt and locally validated; JC authorized committing and pushing it on October 2, 2026. See `PHONE-AND-COVERAGE-UPDATE.md` for current local QA and `STAGING.md` for publication checks. Referral workflows remain inactive.
 
 ## Purpose and supplied direction
 
@@ -8,11 +8,11 @@ Status: built and Chromium QA-tested locally on October 2, 2026. Not committed, 
 
 All individual services remain sections or cards on this page. Eight overview cards link to deeper in-page sections, not separate treatment URLs. Clinical qualifiers such as “may,” “when clinically indicated,” “where appropriate,” and patient-specific suitability are retained. No results, credentials, metrics, insurance promises, or named devices are invented.
 
-The page has one substantial Austin location bridge, plus the supplied location FAQ and compact city references. Stronger Austin-specific targeting remains reserved for `/service-areas/austin/`. Contextual links connect the assessment section to Wounds We Treat, care settings to the current care/referral pathways, confirmed-technology wording to Technology, and Why Wound Haven to About.
+The page retains one substantial Austin coverage bridge, plus its location FAQ and compact coverage references. Service Areas and all dedicated city pages remain excluded by JC's next-version clarification; no location links are introduced. General coverage mentions Austin, Houston, San Antonio, College Station, Corpus Christi, Beaumont, and surrounding areas. Contextual links connect the assessment section to Wounds We Treat, care settings to the current care/referral pathways, confirmed-technology wording to Technology, and Why Wound Haven to About.
 
 ## Content coverage
 
-- Hero: service-focused H1, home/bedside imagery, Request Care, clickable placeholder phone
+- Hero: service-focused H1, home/bedside imagery, Request Care, official phone `(877) 288-1270` linked as `tel:+18772881270`
 - Overview: eight core clinical service cards
 - Wound assessment: eight assessment considerations and wound-evaluation action
 - Treatment and management: five capabilities, including dressing management and patient education
@@ -22,12 +22,12 @@ The page has one substantial Austin location bridge, plus the supplied location 
 - Supported wounds: eight categories linked contextually to the condition hub
 - Getting started: four steps
 - Why Wound Haven: navy section with six reasons and About/Technology links
-- Austin bridge with Houston and San Antonio cross-links
+- Austin-focused coverage bridge with informational broader coverage wording, not location cross-links
 - Separate patient/family and provider conversion cards, with the requested referral selection
-- Ten service FAQs and final primary-blue CTA
-- Existing shared utility bar, sticky navigation, pre-footer CTA, and footer
+- Ten service FAQs flowing directly into the shared footer; the blue closing CTA remains removed
+- Existing shared utility bar, sticky navigation, and footer; no blue pre-footer CTA
 
-The homepage and global-component source files were preserved, with matching before/after SHA-256 checks. Shared component markup is reused. The generated nested page's skip-link fragment is rewritten to keep Skip to content on `/wound-care/` rather than the base URL.
+During the original service-hub build, homepage and global-component source files were preserved with matching before/after SHA-256 checks. The current phone/coverage revision updates those shared components as documented separately. Shared component markup is reused. The generated nested page's skip-link fragment is rewritten to keep Skip to content on `/wound-care/` rather than the base URL.
 
 ## Source, build, and local routing
 
@@ -55,7 +55,7 @@ Originals are preserved. Responsive WebP derivatives and mappings are in `assets
 
 These are supplied care scenes, not verified evidence of actual Wound Haven staff, patients, services performed, or clinical outcomes. Confirm provenance, licensing, patient permissions, depicted branding, and clinical accuracy before publication.
 
-## Local QA
+## Historical local QA
 
 Chromium checks passed at 320, 390, 600, 768, 880, 1024, 1151, 1280, 1440, and 1920 pixel widths: no horizontal overflow, exactly one H1, centered utility content, correct metadata, expected section/card counts, and unique element IDs. Twenty-one unique internal URL/fragment targets returned HTTP 200 with their required anchors. Twenty-six distinct image source/variant URLs loaded successfully; rendered photos were decoded after scrolling.
 
@@ -65,4 +65,4 @@ This is functional/layout QA, not a full accessibility audit, healthcare complia
 
 ## Release gates
 
-The real telephone number, patient/provider form connections, remaining Phase 1 pages, clinical/technology verification, image provenance, legal/privacy pages, public-domain metadata, tracking, production QA, and performance measurement remain outstanding. The local preview collects no patient information. Local noindex must remain until an authorized release.
+The official phone is supplied and implemented locally. The supplied business email still needs confirmation. Patient/provider form connections, clinical/technology verification, image provenance, legal/privacy pages, production-domain metadata, tracking, production QA, and performance measurement remain outstanding. Service Areas and dedicated city/individual service pages are excluded, not unfinished active destinations. The local preview collects no patient information. Local noindex must remain until an authorized production release. Current phone/coverage QA is recorded separately in `PHONE-AND-COVERAGE-UPDATE.md`.

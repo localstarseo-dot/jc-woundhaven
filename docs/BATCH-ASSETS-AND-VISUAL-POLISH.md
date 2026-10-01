@@ -1,6 +1,6 @@
 # Batch asset review and visual polish
 
-Status: built and browser-QA tested locally on October 2, 2026. Not staged, committed, pushed, deployed, or performance-measured.
+Status: historical asset/motion revision, built and browser-QA tested locally on October 2, 2026, then included in authorized staging. Its checks below are historical; current local phone/coverage scope is in `PHONE-AND-COVERAGE-UPDATE.md`, and publication scope is in `STAGING.md`. No performance measurement is claimed.
 
 ## What came first
 
@@ -24,7 +24,7 @@ The Texas map is held while Service Areas pages are excluded. Its embedded “Ce
 
 JC clarified that the Wound Care hub and its current service content should remain. Future individual service pages and all four Service Areas pages are excluded for now. Their prior placeholder preview routes now return 404, and links to those excluded routes were removed throughout retained page content. City names and coverage copy remain informational. No individual condition or service URL was invented.
 
-Approved hero referral labels, the moved homepage care strip, centered FAQ intros, sticky utility/navigation, form-free Contact, and the footer without the removed CTA are preserved.
+Approved hero referral labels, centered FAQ intros, sticky utility/navigation, form-free Contact, and the footer without the removed CTA are preserved. The moved homepage care strip and page-level blue closing CTA bands were removed in the subsequent authorized revision; they remain absent. The latest local revision updates official phone and six-city coverage wording only, leaving assets and motion unchanged.
 
 ## Motion and navigation
 
@@ -34,7 +34,7 @@ The hero is not reveal-animated. Pending content remains visible at 0.92 opacity
 
 `styles/brand-visuals.css` handles selected artwork and photo framing. The build injects these shared styles after page styles and loads the motion script with `defer`.
 
-## Local verification
+## Historical local verification
 
 - Eight retained pages passed desktop/mobile checks at 1440 and 390 pixels, including 320 rendered image instances and 42 unique selected image URLs.
 - All 27 unique internal fragment targets exist. No horizontal page overflow, browser script errors, failed requests, unexpected asset errors, or Service Areas links were observed.
@@ -44,4 +44,4 @@ The hero is not reveal-animated. Pending content remains visible at 0.92 opacity
 - Native card-padding navigation, secondary controls, keyboard elevation, static-card behavior, one-time reveals, initial/live reduced motion, touch hover exclusion, observer fallback, and no-JavaScript referral links were tested.
 - Desktop/mobile visual screenshots were inspected. All retained pages remain `noindex, nofollow`.
 
-This is local functional and visual QA, not a full accessibility audit, clinical/compliance approval, deployment check, PageSpeed score, or Core Web Vitals measurement. Real contact details, approved referral integrations, provenance, legal/privacy content, production metadata, tracking, and final release QA remain separate gates. JC's explicit go signal is required before any GitHub publication.
+This is historical local functional and visual QA, not a full accessibility audit, clinical/compliance approval, deployment check, PageSpeed score, or Core Web Vitals measurement. The official phone has since been supplied for the current local revision; business-email confirmation, approved referral integrations, provenance, legal/privacy content, production metadata, tracking, and final release QA remain separate gates. JC's explicit go signal is required before any further GitHub publication.

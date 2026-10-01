@@ -2,6 +2,8 @@
 
 On October 2, 2026 (Asia/Manila), JC explicitly authorized pushing the latest local changes and publishing a browser-accessible staging URL.
 
+The earlier authorized staging checkpoint is `f492d82`. JC subsequently gave a new explicit go signal on October 2, 2026 to commit and push the official-phone and expanded-coverage revision. The existing branch-based Pages configuration publishes that push automatically. See `PHONE-AND-COVERAGE-UPDATE.md` for scope and local QA; successful deployment and served-content checks are still required to confirm publication.
+
 ## Scope and selected hosting configuration
 
 - Repository: `localstarseo-dot/jc-woundhaven`, visibility unchanged (public).
@@ -17,7 +19,7 @@ On October 2, 2026 (Asia/Manila), JC explicitly authorized pushing the latest lo
 
 All generated pages retain `noindex, nofollow`. This discourages search indexing; it is not authentication or privacy protection. Do not put private patient information or credentials in this public repository or preview.
 
-Contact remains form-free. Self Referral and Patient Referral are visibly inactive drafts with disabled fields and no submission endpoint. No patient information is collected, uploaded, stored, or sent by these pages. Phone numbers remain placeholders.
+Contact remains form-free. Self Referral and Patient Referral are visibly inactive drafts with disabled fields and no submission endpoint. No patient information is collected, uploaded, stored, or sent by these pages. The current phone/coverage revision replaces the earlier `f492d82` placeholders with `(877) 288-1270` / `tel:+18772881270` and includes all six approved markets plus surrounding areas. No location pages or links are added.
 
 This authorization does not approve a production launch, connect clinical referral workflows, verify photo rights or real staff/patient identity, approve clinical capabilities or outcome claims, confirm contact details, install analytics, or satisfy legal/privacy requirements. Those production gates remain separate.
 

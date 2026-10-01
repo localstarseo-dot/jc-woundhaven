@@ -1,6 +1,6 @@
 # Phase 1 global header and footer
 
-Status: local review build. No commit, push, or deployment is authorized without JC's explicit go signal.
+Status: phone/coverage revision rebuilt and locally validated; JC authorized committing and pushing it on October 2, 2026. See `PHONE-AND-COVERAGE-UPDATE.md` for local QA and `STAGING.md` for publication checks. Subsequent changes require a new explicit go signal.
 
 ## Editable source
 
@@ -37,6 +37,8 @@ The supplied SVGs contain embedded raster artwork; they are not vector paths. Us
 
 Both header bars stick together at the top. Utility wording stays centered at every width. Mobile uses the same message on two centered lines. Refer Patient remains visible beside the mobile menu button, and both audience choices are always one tap away.
 
+Utility wording is exactly `Suffering from a chronic wound? Call (877) 288-1270`, with the number linked as `tel:+18772881270`. No coverage text, referral CTA, or extra utility links are added to this bar.
+
 JC's Contact revision supersedes the earlier Contact-section referral anchors:
 
 - Request Care / patient and family: `self-referral/`
@@ -44,14 +46,16 @@ JC's Contact revision supersedes the earlier Contact-section referral anchors:
 
 JC's latest adjustment removes Service Areas and its dropdown from primary/mobile navigation, removes the Service Areas footer column, and changes footer city names to plain contact text. The blue conversion band has been removed from the shared footer at JC's request. The latest local revision also removes the blue page-level closing CTA bands across all five content pages and the homepage care strip. Header/referral buttons and footer text links remain unchanged. Footer columns are Brand/Contact, Wound Care, and Company. The remaining Refer Patient dropdown supports keyboard focus, Escape, click-outside dismissal, and accurate expanded states.
 
+The next-version clarification keeps all Service Areas and city pages excluded, including Austin, Houston, and San Antonio. Coverage is wording only. The footer uses one informational line for Austin, Houston, San Antonio, College Station, Corpus Christi, Beaumont, and surrounding areas rather than duplicate city lists or nonexistent location links.
+
 ## Preview limitations and handoff
 
 The preview server exposes eight retained pages and the global component preview. The homepage, Wound Care service hub, Wounds We Treat condition hub, About page, Technology page, and Contact page are built; the four Service Areas paths are excluded for now. Contact is a simple contact-information page without forms. Separate `/self-referral/` and `/patient-referral/` pages contain inactive previews for patients/families and healthcare providers respectively. No form submits, collects, stores, or sends information. Approved workflow connections are required before enabling them.
 
-`(XXX) XXX-XXXX` is the supplied phone placeholder. Telephone links contain a placeholder target until JC supplies the actual number. `info@woundhaven.com` is used as instructed. External referral destinations have not been supplied. Privacy, terms, accessibility, careers, social, and individual treatment pages are omitted from global links as directed.
+The supplied official phone is `(877) 288-1270`; telephone links use `tel:+18772881270`. `info@woundhaven.com` is used as instructed but still needs confirmation. External referral destinations have not been supplied. Privacy, terms, accessibility, careers, social, individual treatment pages, and location pages are omitted from global links as directed.
 
 Colors use the working blue/navy palette. No clinical metrics, testimonials, or equipment claims are introduced by these components.
 
-## Local verification
+## Historical local verification
 
 The preview passed layout checks at 320, 390, 768, 1024, 1150, 1151, 1280, 1440, and 1920 pixels with centered utility content and no horizontal page overflow. Desktop and mobile scroll checks confirmed the combined header stays at viewport top. The original global build exercised Service Areas and Refer Patient dropdowns, mobile menu, Escape, ArrowDown, outside-click dismissal, and separate referral destinations in Chromium; Service Areas is now removed. See `docs/CARDS-AND-GLOBAL-ADJUSTMENTS.md` for current revision checks. All local header/footer destinations returned HTTP 200 and there were no browser script errors. Logo artwork was visually reviewed on both white and navy backgrounds after image decoding.

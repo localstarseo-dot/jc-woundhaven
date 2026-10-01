@@ -1,8 +1,8 @@
 # Card, navigation, and footer adjustments
 
-Status: built and Chromium QA-tested locally on October 2, 2026. No staging, commit, push, publication, analytics, or performance measurement. JC's explicit go signal is still required for GitHub changes.
+Status: records successive card/global revisions and their historical local QA, followed by authorized staging. Current local phone/coverage scope is in `PHONE-AND-COVERAGE-UPDATE.md`; live staging scope is in `STAGING.md`. Further GitHub changes require JC's explicit go signal. No analytics or performance measurement is claimed.
 
-## Current revision
+## Original card revision
 
 - Removed Service Areas and its dropdown from the shared desktop/mobile navigation.
 - Removed the Service Areas footer column and changed footer city names to plain contact text. Coverage wording remains informational.
@@ -10,7 +10,7 @@ Status: built and Chromium QA-tested locally on October 2, 2026. No staging, com
 - Removed the eight number labels from the homepage Wounds We Treat cards. Their whole-card links now open the corresponding condition sections of the built Wounds We Treat hub.
 - Made ready cards full-card native links. Cards without a suitable built destination remain plain. City/service-area cards have no placeholder links or Learn More affordances.
 
-This revision does not delete the four reserved service-area routes, remove location copy elsewhere, remove numbered process steps, or invent individual service/condition URLs. Non-card contextual service-area links elsewhere in the page copy remain outside this requested navigation/footer/card change.
+At this original card revision, the four reserved service-area routes and non-card contextual location links had not yet been removed. The later batch-asset revision excluded those four routes and removed all location-page links. The current phone/coverage clarification keeps them excluded and uses location wording only. Numbered process steps remain; no individual service/condition URLs are invented.
 
 ## Card behavior
 
@@ -20,7 +20,7 @@ Forty article cards plus eight Wound Care condition-list tiles use this behavior
 
 Homepage services link to matching built Wound Care sections. Homepage and Wound Care condition tiles link to matching built Wounds We Treat sections. Ready overview, advanced-treatment, care-model, and referral cards retain their relevant destinations. Patient/family cards open Self Referral; provider cards open Patient Referral. Secondary phone links and the provider's two-choice disclosure remain separately interactive and are not covered by the card's main link.
 
-Informational care-setting, diagnostic, rationale, or location cards without a current suitable destination remain static. Telephone/email text remains available as contact information, but placeholder phone details are not promoted to new whole-card destinations.
+Informational care-setting, diagnostic, rationale, or location cards without a current suitable destination remain static. Telephone/email text remains available as contact information. The latest local revision replaces phone placeholders with `(877) 288-1270` / `tel:+18772881270` in existing call links; it does not create new whole-card phone destinations.
 
 ## Source and build
 
@@ -54,3 +54,7 @@ The revised footer passed 45 page/viewport checks across all eight built pages a
 After authorized repository checkpoint `a9e4e21`, JC returned to local-only work and requested removal of the homepage four-point care strip/city row and the blue closing CTA globally. One closing band was removed from each of Home, Wound Care, Wounds We Treat, About, and Technology. Contact and the referral pages had no such closing band. Source pages were edited and generated output rebuilt; shared header/footer components, imagery, scripts, hero buttons, referral cards, and contextual CTA links are unchanged.
 
 All eight retained pages passed 390px/1440px checks: no removed sections or dangling final-CTA fragment references, centered FAQ intros retained on five pages, sticky header and three-column footer intact, and no horizontal overflow or browser errors. Contact remains form-free, and all 24 referral fields remain disabled. At the time of this local QA, no staging, commit, push, or deployment was authorized. JC subsequently gave a new explicit go signal to push these changes and publish a live staging preview; see `STAGING.md`.
+
+## Current local phone/coverage follow-up
+
+JC supplied the official phone and expanded coverage, then explicitly clarified that Service Areas navigation, hub, and all city pages stay excluded. This follow-up changes contact/coverage wording only; card destinations and interaction patterns are unchanged. Removed CTA bands and homepage care strip stay removed, and referral previews remain disabled. See `PHONE-AND-COVERAGE-UPDATE.md` for current scope and QA status. JC subsequently authorized pushing this revision on October 2, 2026. The existing Pages configuration publishes that push; verify deployment and served content before confirming that the earlier `f492d82` staging checkpoint has been replaced.

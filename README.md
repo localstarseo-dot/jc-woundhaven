@@ -24,6 +24,14 @@ See `docs/HOMEPAGE.md`, `docs/WOUND-CARE.md`, `docs/WOUNDS-WE-TREAT.md`, `docs/A
 
 Build and review locally first. Do not commit, push, or publish without JC's explicit go signal.
 
+## Current phone and coverage revision
+
+JC supplied the official phone number `(877) 288-1270`, linked as `tel:+18772881270`, and confirmed coverage wording for Austin, Houston, San Antonio, College Station, Corpus Christi, Beaumont, and surrounding areas. The utility bar uses exactly: `Suffering from a chronic wound? Call (877) 288-1270`.
+
+These are wording and contact-detail changes, not new pages or a redesign. JC explicitly clarified that the Service Areas navigation, hub, and all dedicated city pages remain excluded; the six cities are informational mentions only. The Austin-first homepage title and heading, separate referral routes, inactive referral safeguards, centered FAQ introductions, approved assets/brand system, and removal of closing CTA bands/care strip remain intact. The supplied `info@woundhaven.com` address still requires confirmation.
+
+JC gave a new explicit commit/push go signal for this revision on October 2, 2026. The existing GitHub Pages configuration automatically publishes changes pushed to `main`; verify its successful deployment and the served site before treating the revision as live. See `docs/PHONE-AND-COVERAGE-UPDATE.md` for scope and local QA, and `docs/STAGING.md` for publication checks. Future changes still require a new go signal.
+
 ## Latest batch imagery and visual polish
 
 The new seven-batch library replaces obsolete photo sources. `assets/README.md` records the current inventory and selections. `styles/brand-visuals.css`, `styles/motion.css`, and `scripts/motion.js` provide selected supporting graphics and accessible, restrained interactions. See `docs/BATCH-ASSETS-AND-VISUAL-POLISH.md` for scope, placements, and QA evidence. The Wound Care hub is retained; future individual service pages and the four Service Areas pages are excluded for now. Contact stays form-free, and separate referral previews stay disabled. These are staging mockups, not a deployed production site.

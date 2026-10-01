@@ -1,14 +1,16 @@
 # Wound Haven homepage
 
-Status: built and Chromium QA-tested locally on October 2, 2026. Not published, connected to forms, tracked, or performance-measured. No commit, push, or deployment without JC's explicit go signal.
+Status: phone/coverage revision rebuilt and locally validated; JC authorized committing and pushing it on October 2, 2026. See `PHONE-AND-COVERAGE-UPDATE.md` for current local QA and `STAGING.md` for publication checks. Referral workflows remain inactive.
 
 ## Direction and scope
 
-The supplied homepage brief is the copy source. The page focuses on Austin, TX, while supporting patient/family and healthcare-provider intent. Austin appears in the title, hero, service-area heading and location card, one FAQ, and relevant internal links. Houston and San Antonio remain supported locations. No keyword repetition, invented metrics, credentials, testimonials, named devices, or insurance-acceptance claims are added.
+The supplied homepage brief is the copy source. The page remains focused on Austin, TX, while supporting patient/family and healthcare-provider intent. Austin remains in the title, hero, coverage heading, primary location card, and relevant FAQ. General coverage wording includes Austin, Houston, San Antonio, College Station, Corpus Christi, Beaumont, and surrounding areas without repeating the complete list throughout the page. The three existing location cards remain informational; no Service Areas or dedicated city pages are added. No keyword repetition, invented metrics, credentials, testimonials, named devices, or insurance-acceptance claims are added.
 
 The homepage includes hero, eight wound categories, five care settings, eight services, navy Why Wound Haven section, four-step process, conditional technology section, separate referral pathways, three city cards, and eight FAQs. The FAQ section now flows directly into the shared footer. The shared sticky header omits Service Areas; the shared three-column footer has no embedded blue conversion CTA. Condition cards are unnumbered, full-card native links to matching sections of the built Wounds We Treat hub, not nonexistent individual pages. Ready service cards link to matching Wound Care sections; location cards remain plain while their destination pages are excluded.
 
 JC's latest local request removes the four-point care-approach strip and its city row from the homepage. The blue closing CTA is also removed from Home, Wound Care, Wounds We Treat, About, and Technology. Header, footer, hero buttons, referral cards, and other contextual CTAs are unchanged.
+
+The official phone `(877) 288-1270` replaces placeholder copy and uses `tel:+18772881270` in existing call links. The full coverage list belongs in the existing coverage section and shared footer; compact supporting copy does not imply a three-city-only coverage limit. The Austin-first H1/title, imagery, section hierarchy, and removed CTA sections stay unchanged.
 
 FAQ intro blocks are centered consistently on Home, Wound Care, Wounds We Treat, About, and Technology. This includes the eyebrow, heading, description, and contact link. The approved desktop two-column/mobile stacked layout and left-aligned question/answer text are preserved.
 
@@ -44,7 +46,7 @@ WebP derivatives use responsive sizes, explicit dimensions, eager/high-priority 
 
 The brief requests a real Wound Haven clinician. These supplied images are suitable home-care scenes, but staff identity, patient consent, licensing, and whether pictured devices are actually used by Wound Haven have not been verified. Confirm provenance or replace with verified photography before publication. The image manifest does not certify authenticity or usage rights.
 
-## Local verification
+## Historical local verification
 
 Chromium layout checks covered 320, 390, 600, 768, 880, 1024, 1151, 1280, 1440, and 1920 pixel widths. Desktop and mobile sections were visually inspected. Checks covered one H1, exact title and description, centered utility bar, no horizontal overflow, sticky combined header, local links and assets, FAQ accordion, referral disclosure and Escape, mobile menu, and separate patient/provider anchor targets. No browser script errors were observed.
 
@@ -54,6 +56,6 @@ Earlier revision QA: before the latest removal, the care strip was verified once
 
 ## Before public launch
 
-Supply the actual telephone number; all `tel:` targets currently use `XXXXXXXXXX`. Confirm the provided `info@woundhaven.com` address. Connect separately approved patient and provider referral destinations, with appropriate healthcare privacy requirements and handling. No local preview form collects patient information.
+The official phone is supplied and implemented locally as `(877) 288-1270` / `tel:+18772881270`. Confirm the provided `info@woundhaven.com` address. Connect separately approved patient and provider referral destinations, with appropriate healthcare privacy requirements and handling. No local preview form collects patient information. Current phone/coverage revision QA is recorded separately in `PHONE-AND-COVERAGE-UPDATE.md`; historical checks above do not certify this revision.
 
-Confirm clinical services, technology, insurance wording, service availability, and photo provenance. Build the remaining Phase 1 pages, add legal/privacy pages only when they exist, configure the approved public domain/canonical metadata, remove local noindex only during an approved release, and complete production QA and measurement setup. These are separate release gates, not completed by this homepage build.
+Confirm clinical services, technology, insurance wording, service availability, and photo provenance. Service Areas and all dedicated city pages remain excluded unless separately approved. Add legal/privacy pages only when they exist, configure the approved public domain/canonical metadata, remove local noindex only during an approved production release, and complete production QA and measurement setup. These are separate release gates, not completed by this homepage build.
