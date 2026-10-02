@@ -1,6 +1,6 @@
 # Contact and separate referral pages
 
-Status: phone/coverage revision rebuilt and locally validated; JC authorized committing and pushing it on October 2, 2026. See `PHONE-AND-COVERAGE-UPDATE.md` for current local QA and `STAGING.md` for publication checks. Referral workflows remain inactive.
+Status: JC authorized committing and pushing the October 3, 2026 Self Referral and Patient Referral integrations. Both separately supplied Jotforms replace their disabled previews and passed local QA. Verify the Pages deployment and both HTTPS referral pages after pushing. Earlier phone/coverage publication is recorded in `PHONE-AND-COVERAGE-UPDATE.md` and `STAGING.md`.
 
 ## Current direction
 
@@ -24,11 +24,13 @@ These are not Wound Haven referral destinations. No competitor phone number, int
 
 The two local referral routes extend the original ten-route Phase 1 architecture in response to the latest revision. Header, footer, and all existing page care/referral buttons now use these dedicated paths rather than old Contact-section anchors. The latest global adjustment omits Service Areas from navigation/footer links, uses three footer columns, and removes the blue CTA from the footer. Other approved copy and artwork remain unchanged.
 
-## Inactive previews and safety
+## Separate referral integrations and safety
 
-The existing eleven-field patient/family preview and thirteen-field provider preview were moved to the corresponding separate pages. No approved secure platform, form IDs, or real submission destinations have been supplied. Both remain visibly marked local previews with submissions disabled. They are not operational or compliance-approved forms.
+JC supplied Self Referral Jotform ID `262745397105058` on October 3, 2026. The local `/self-referral/` page now uses the exact supplied script `https://form.jotform.com/jsform/262745397105058`, replacing its eleven-field disabled mockup. The hosted form owns its fields, submission processing, and configuration. A direct HTTPS link to the same form is available when the embed fails or JavaScript is unavailable. The supplied hosted form is titled Self Referral Form. The local embed loads a live external form and can accept information; no submission was used for QA.
 
-Twenty-four empty controls remain natively disabled. Two submit-looking buttons are disabled `type="button"` controls. No HTML form elements, control names, endpoints, uploads, embedded third-party forms, submission handlers, or patient-information storage are present. The provider's four supporting-record labels remain static, with uploads conditional on an approved secure workflow. Disabling also works without JavaScript.
+JC then supplied Patient Referral Jotform ID `262745072792060`. The local `/patient-referral/` page uses the exact supplied script `https://form.jotform.com/jsform/262745072792060`, replacing its thirteen-field disabled mockup and static supporting-record preview. Its hosted title is Patient Referral Form, and its direct HTTPS fallback link opens this same provider form. The hosted form controls its own fields and upload capabilities; no records are uploaded during QA. Self Referral retains its separate form ID. Contact remains form-free. The website does not add patient-information storage or its own submission handler, but this does not establish the external platform's data-handling practices.
+
+The embeds are not proof of healthcare compliance. Confirm Jotform account-level healthcare privacy/HIPAA configuration, any required BAA, intended recipients, permissions, retention, and submission delivery. These checks and the submission flow remain unverified. The original embed requests authorized local implementation; JC's subsequent explicit push request authorizes publication of both integrations.
 
 Contact and referral pages keep patient records separate from ordinary email and state that the website/referral pathway is not an emergency service.
 
@@ -37,7 +39,7 @@ Contact and referral pages keep patient records separate from ordinary email and
 - `src/pages/contact.html`, `src/contact-document.html`, `styles/contact.css`
 - `src/pages/self-referral.html`, `src/self-referral-document.html`
 - `src/pages/patient-referral.html`, `src/patient-referral-document.html`
-- `styles/referral.css`: shared inactive-preview styles
+- `styles/referral.css`: shared Self Referral and Patient Referral embed layout
 - `components/site-header.html`, `components/site-footer.html`: referral destinations
 - Existing five page sources: referral URL changes only
 - `scripts/build.mjs`: generates all three page outputs
@@ -51,6 +53,18 @@ Contact metadata retains the title and updates the description for the official 
 
 All three pages retain local noindex/nofollow and project-relative links/assets.
 
+## Current two-form local verification
+
+`qa/self-referral-embed.test.cjs` checks Self Referral by default and Patient Referral with `WOUNDHAVEN_QA_REFERRAL=patient`. Both passed in Chromium and WebKit at 320, 390, 880, and 1440 pixels, totaling sixteen form/engine/viewport checks. Form IDs/titles, rendered fields, width fit, automatic iframe height, submit-control visibility within each frame, no-JavaScript/blocked-embed fallback links, and links between the two pathways were verified. The height check polls independently of animation frames because an off-screen mobile iframe can pause animation-frame callbacks. Screenshots were visually reviewed. Contact remains form-free. No field entry, upload, or submission was performed; delivery and privacy/account settings remain unverified.
+
+The existing `qa/mobile-layout.test.cjs` passed all 144 page/viewport checks again after the provider integration, covering the one-line utility bar, city spacing, smooth scrolling, reduced motion, history, focus, and mobile menus. The build and `git diff --check` passed. These checks were performed locally before JC's explicit publication authorization; repeat the embed checks against the served HTTPS pages after deployment.
+
+## Self Referral verification before provider integration
+
+`qa/self-referral-embed.test.cjs` passed in Chromium and WebKit at 320, 390, 880, and 1440 pixels. The supplied form title/ID, rendered fields, auto-height, accessible submit-control position, and outer/inner horizontal fit were checked. JavaScript-disabled and blocked-embed fallback links passed. Contact remains form-free and provider controls remain disabled. Desktop/mobile screenshots were visually reviewed. No fields were filled, uploads made, or forms submitted, so delivery and account-side privacy configuration remain unverified.
+
+The existing `qa/mobile-layout.test.cjs` also passed all 144 page/viewport checks across both engines, including one-line utility copy, city-heading spacing, smooth scrolling, reduced motion, history, focus, and mobile menus. The build and `git diff --check` passed. This change is local-only, not published.
+
 ## Historical local verification
 
 Chromium checks passed for all three pages at 320, 390, 600, 768, 880, 1024, 1151, 1280, 1440, and 1920 pixel widths: thirty page/viewport combinations without horizontal page, text, or field overflow. One H1 per page, centered utility content, unique IDs, all rendered image decoding, native field labels, and disabled controls were checked.
@@ -61,6 +75,6 @@ Desktop/mobile screenshots were visually reviewed. Fourteen preservation hashes 
 
 ## Remaining release gates
 
-Six original Phase 1 pages plus two separate referral preview pages are built locally. The four Service Areas routes remain excluded. The official phone is supplied and implemented locally; confirm the business email. Approve secure referral destinations and privacy/data-handling workflows before enabling any collection or uploads. Clinical claims, photo provenance, legal/privacy content, production metadata, tracking, production QA, and performance remain release gates. Current phone/coverage QA is recorded separately in `PHONE-AND-COVERAGE-UPDATE.md`.
+Six original Phase 1 pages plus two separate referral pages are built locally. The four Service Areas routes remain excluded. The official phone is supplied and implemented locally; confirm the business email. Both referral pages have supplied external form connections authorized for publication, with account-side privacy and delivery checks still unverified. Clinical claims, photo provenance, legal/privacy content, production metadata, tracking, production QA, and performance remain release gates. Current phone/coverage QA is recorded separately in `PHONE-AND-COVERAGE-UPDATE.md`.
 
 Keep local noindex until release approval. Do not stage, commit, push, or publish without JC's explicit go signal.

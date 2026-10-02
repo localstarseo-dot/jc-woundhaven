@@ -1,5 +1,11 @@
 # Authorized live staging preview
 
+## October 3 referral publication authorization
+
+JC explicitly authorized committing and pushing both supplied Jotform integrations. The existing `main`/root GitHub Pages deployment uses the custom domain `https://woundhaven.com/` with HTTPS enforced. `/self-referral/` uses form `262745397105058`; `/patient-referral/` uses form `262745072792060`. Both replace the inactive previews described in the earlier checkpoint below. Contact remains form-free. These hosted forms can accept submissions, so the earlier no-collection statement no longer applies to referral pages. No test data was entered, uploaded, or submitted. Account-side privacy/HIPAA settings, permissions, retention, and submission delivery remain unverified. Confirm deployment success, live source/style parity, and both loaded forms before reporting this push as live.
+
+## Earlier staging checkpoint
+
 On October 2, 2026 (Asia/Manila), JC explicitly authorized pushing the latest local changes and publishing a browser-accessible staging URL.
 
 The earlier authorized staging checkpoint is `f492d82`. JC subsequently gave a new explicit go signal on October 2, 2026 to commit and push the official-phone and expanded-coverage revision. The existing branch-based Pages configuration publishes that push automatically. See `PHONE-AND-COVERAGE-UPDATE.md` for scope and local QA; successful deployment and served-content checks are still required to confirm publication.

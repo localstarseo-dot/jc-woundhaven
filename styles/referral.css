@@ -44,6 +44,11 @@
 .wh-referral-page h1 { font-size: clamp(38px, 4.3vw, 58px); line-height: 1.1; letter-spacing: -.04em; margin: 0 0 26px; }
 .wh-referral-page h1 span { color: var(--wh-blue); }
 .wh-referral-switch { margin-top: 25px; font-size: 12px; }
+.wh-self-referral-form, .wh-patient-referral-form { min-width: 0; border: 1px solid #d0e2f3; border-radius: 17px; background: #fff; box-shadow: 0 7px 24px #0b2d5b06; }
+.wh-self-referral-embed, .wh-patient-referral-embed { min-width: 0; min-height: 720px; }
+.wh-self-referral-embed iframe, .wh-patient-referral-embed iframe { display: block; width: 100%; max-width: 100%; border: 0; border-radius: 17px; }
+.wh-self-referral-fallback, .wh-patient-referral-fallback { margin: 0; padding: 20px; border-top: 1px solid #dfebf6; color: var(--wh-text); font-size: 12px; line-height: 1.8; text-align: center; }
+.wh-self-referral-fallback a, .wh-patient-referral-fallback a { color: var(--wh-blue); text-decoration: underline; text-underline-offset: 3px; }
 @media (max-width: 1150px) {
   .wh-contact-referral-layout { gap: 50px; }
   .wh-contact-form-preview { padding: 29px; }
