@@ -6,6 +6,8 @@ JC subsequently authorized committing and pushing the October 3 email-directory 
 
 `qa/email-directory.test.cjs` passed 126 page/viewport checks in Chromium and WebKit at 320, 390, 600, 768, 880, 1151, and 1440 pixels. Every generated footer has the four matching email/purpose pairs. Contact has one departmental directory, no input/embedded form controls, preserved referral links, and no outdated pending-email or inactive-referral copy. Desktop/mobile screenshots were visually reviewed. Mail links were inspected, not clicked or sent. The hosted form scripts were blocked only in this footer-focused test; prior form QA remains separate. Build and whitespace checks passed.
 
+Publication checkpoint `f8045a8` deployed successfully through Pages run `37048266165`. All nine generated HTML files and both changed stylesheets matched the HTTPS-served files exactly. The live email QA passed all 126 page/viewport checks in Chromium/WebKit, and screenshots were visually reviewed. The QA script now waits for full page load before measuring: live WebKit briefly exposes unstyled layout at DOM readiness, which caused an early false-positive overflow check. HTTP redirects to HTTPS; no email was sent and mailbox delivery remains unverified.
+
 ## Current direction
 
 JC's latest revision supersedes the earlier eleven-section Contact brief and its embedded preview layouts. Contact is now a simple contact-information page with two sections: contact details and two referral choices. It has no form elements, input fields, select menus, textareas, form previews, or embedded forms. The general inquiry preview was removed, not moved elsewhere.

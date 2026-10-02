@@ -24,7 +24,8 @@ const contacts = [
       for (const width of widths) {
         await page.setViewportSize({ width, height: 900 });
         for (const route of routes) {
-          await page.goto(base + route, { waitUntil: 'domcontentloaded' });
+          // WebKit may signal DOM readiness before remote stylesheets are applied.
+          await page.goto(base + route, { waitUntil: 'load' });
           assert.equal(await page.locator('.wh-footer-email').count(), contacts.length);
           for (const [email, purpose] of contacts) {
             const link = page.locator(`.wh-footer-email a[href="mailto:${email}"]`);
