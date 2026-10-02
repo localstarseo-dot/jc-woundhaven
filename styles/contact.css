@@ -1,5 +1,5 @@
 .wh-contact-hero .wh-hero-description { max-width: 780px; }
-.wh-contact-info-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-top: 35px; }
+.wh-contact-info-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 35px; }
 .wh-contact-info-card { min-width: 0; padding: 27px 24px; border: 1px solid #d3e4f4; border-radius: 14px; background: #fff; }
 .wh-contact-info-icon { display: grid; place-items: center; width: 53px; height: 53px; border-radius: 50%; background: #eef6ff; color: var(--wh-blue); margin-bottom: 22px; }
 .wh-contact-info-icon svg { width: 27px; height: 27px; }
@@ -11,6 +11,13 @@
 .wh-contact-info-card ul { list-style: none; display: grid; gap: 7px; margin: 0; padding: 0; color: #365b80; font-size: 13px; line-height: 1.7; }
 .wh-contact-info-card a:hover { text-decoration: underline; text-underline-offset: 4px; }
 .wh-contact-info-card .wh-text-link { display: inline-flex; margin-top: 19px; font-size: 11px; }
+.wh-contact-email-directory { margin-top: 24px; padding: 27px 24px; border: 1px solid #d3e4f4; border-radius: 14px; background: #fff; }
+.wh-contact-email-directory h2 { margin: 0 0 22px; font-size: 20px; line-height: 1.4; }
+.wh-contact-email-list { list-style: none; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; margin: 0; padding: 0; }
+.wh-contact-email-list li { min-width: 0; }
+.wh-contact-email-list a { color: var(--wh-blue); font-size: 14px; font-weight: 600; line-height: 1.7; overflow-wrap: anywhere; }
+.wh-contact-email-list a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.wh-contact-email-list p { margin: 8px 0 0; color: var(--wh-text); font-size: 12px; line-height: 1.8; }
 .wh-contact-privacy-note { color: #567594; font-size: 12px; line-height: 1.9; margin: 25px 0 0; max-width: 850px; }
 .wh-contact-path-section { padding-block: 65px; border-top: 1px solid #e0ebf6; }
 .wh-contact-path-section .wh-section-heading { margin-bottom: 30px; }
@@ -27,11 +34,15 @@
 .wh-contact-emergency-note strong { color: var(--wh-navy); }
 @media (max-width: 1150px) {
   .wh-contact-info-grid { grid-template-columns: 1fr 1fr; }
+  .wh-contact-info-grid > :last-child { grid-column: 1 / -1; }
+  .wh-contact-email-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 600px) {
   .wh-contact-info-grid, .wh-contact-path-grid { grid-template-columns: 1fr; gap: 16px; }
   .wh-contact-info-grid { margin-top: 29px; }
   .wh-contact-info-card { padding: 25px; }
+  .wh-contact-email-directory { padding: 25px; }
+  .wh-contact-email-list { grid-template-columns: 1fr; gap: 20px; }
   .wh-contact-info-icon { margin-bottom: 18px; }
   .wh-contact-path-section { padding-block: 44px; }
   .wh-contact-path-section .wh-section-heading p:not(.wh-eyebrow) { font-size: 13px; }

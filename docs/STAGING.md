@@ -1,5 +1,9 @@
 # Authorized live staging preview
 
+## October 3 departmental email publication authorization
+
+JC explicitly authorized pushing the four-email footer and Contact revision. The shared footer and Contact directory display `info@woundhaven.com`, `careers@woundhaven.com`, `referpatient@woundhaven.com`, and `medicalrecords@woundhaven.com` with their supplied purposes. Contact remains form-free and the separate Jotforms are unchanged. Local Chromium/WebKit checks passed across all nine generated routes and seven widths. Verify the deployed HTML/styles and responsive directory/footer on `https://woundhaven.com/`; set `WOUNDHAVEN_QA_BASE=https://woundhaven.com` and `WOUNDHAVEN_QA_GLOBAL_ROUTE=/global-preview.html` for the email QA script. Mailto targets are inspected without sending email; mailbox setup/delivery remain unverified.
+
 ## October 3 referral publication authorization
 
 JC explicitly authorized committing and pushing both supplied Jotform integrations. The existing `main`/root GitHub Pages deployment uses the custom domain `https://woundhaven.com/` with HTTPS enforced. `/self-referral/` uses form `262745397105058`; `/patient-referral/` uses form `262745072792060`. Both replace the inactive previews described in the earlier checkpoint below. Contact remains form-free. These hosted forms can accept submissions, so the earlier no-collection statement no longer applies to referral pages. No test data was entered, uploaded, or submitted. Account-side privacy/HIPAA settings, permissions, retention, and submission delivery remain unverified. Confirm deployment success, live source/style parity, and both loaded forms before reporting this push as live.

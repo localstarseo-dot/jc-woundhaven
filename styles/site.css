@@ -86,7 +86,10 @@ body.wh-site { margin: 0; background: #fff; color: var(--wh-navy); font-family: 
 .wh-footer-positioning { font-size: 14px; line-height: 1.7; color: #d2e0f0; margin: 0 0 22px; max-width: 310px; }
 .wh-footer-contact { display: grid; gap: 12px; }
 .wh-footer-contact li { display: flex; align-items: flex-start; gap: 10px; font-size: 13px; line-height: 1.65; color: #dce8f5; }
-.wh-footer-contact svg { width: 16px; height: 16px; margin-top: 3px; color: #9ac8f5; }
+.wh-footer-contact svg { width: 16px; height: 16px; flex: 0 0 16px; margin-top: 3px; color: #9ac8f5; }
+.wh-footer-email { display: grid; gap: 3px; min-width: 0; }
+.wh-footer-email a { overflow-wrap: anywhere; }
+.wh-footer-email span { color: #a9bfd8; font-size: 11px; line-height: 1.65; max-width: 310px; }
 .wh-footer-column { border-left: 1px solid #ffffff1c; padding-left: 32px; padding-top: 10px; }
 .wh-footer-column h2 { margin: 0 0 24px; color: #fff; font-size: 12px; font-weight: 700; line-height: 1.4; letter-spacing: .11em; text-transform: uppercase; }
 .wh-footer-column ul { display: grid; gap: 15px; }
