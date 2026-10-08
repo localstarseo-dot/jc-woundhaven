@@ -13,6 +13,8 @@ const pages = [
   ['src/contact-document.html', 'contact/index.html', 'WH_CONTACT', 'src/pages/contact.html'],
   ['src/self-referral-document.html', 'self-referral/index.html', 'WH_REFERRAL', 'src/pages/self-referral.html'],
   ['src/patient-referral-document.html', 'patient-referral/index.html', 'WH_REFERRAL', 'src/pages/patient-referral.html'],
+  ['src/privacy-policy-document.html', 'privacy-policy/index.html', 'WH_LEGAL', 'src/pages/privacy-policy.html'],
+  ['src/terms-of-service-document.html', 'terms-of-service/index.html', 'WH_LEGAL', 'src/pages/terms-of-service.html'],
 ];
 for (const [template, output, contentToken, contentFile] of pages) {
   let html = await readFile(path.join(root, template), 'utf8');

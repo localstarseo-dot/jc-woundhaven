@@ -2,7 +2,7 @@ const assert = require('node:assert/strict');
 const { chromium, webkit } = require('playwright');
 
 const base = process.env.WOUNDHAVEN_QA_BASE || 'http://127.0.0.1:4178';
-const routes = ['/', '/wound-care/', '/wounds-we-treat/', '/about/', '/technology/', '/contact/', '/self-referral/', '/patient-referral/', process.env.WOUNDHAVEN_QA_GLOBAL_ROUTE || '/preview/global/'];
+const routes = ['/', '/wound-care/', '/wounds-we-treat/', '/about/', '/technology/', '/contact/', '/self-referral/', '/patient-referral/', '/privacy-policy/', '/terms-of-service/', process.env.WOUNDHAVEN_QA_GLOBAL_ROUTE || '/preview/global/'];
 const widths = [320, 390, 600, 768, 880, 1151, 1440];
 const contacts = [
   ['info@woundhaven.com', 'For general questions or patient inquiries.'],

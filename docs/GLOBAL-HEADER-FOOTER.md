@@ -18,6 +18,8 @@ Status: phone/coverage revision rebuilt and locally validated; JC authorized com
 - `contact/index.html`: generated form-free Contact page using the same shared header and footer
 - `self-referral/index.html`: generated patient/family referral preview
 - `patient-referral/index.html`: generated provider/clinician referral preview
+- `privacy-policy/index.html`: generated website Privacy Policy using JC's supplied content
+- `terms-of-service/index.html`: generated website Terms of Service using JC's supplied content
 
 Run `npm run build` and `npm run preview`, or run the scripts directly with Node. The global-component review is available at `http://127.0.0.1:4178/preview/global/`; the homepage is at `http://127.0.0.1:4178/`.
 
@@ -35,7 +37,7 @@ The supplied SVGs contain embedded raster artwork; they are not vector paths. Us
 
 ## Approved behavior
 
-Both header bars stick together at the top. Utility wording stays centered at every width. Mobile uses the same message on two centered lines. Refer Patient remains visible beside the mobile menu button, and both audience choices are always one tap away.
+Both header bars stick together at the top. Utility wording stays centered on one line at every supported width, including mobile. Refer Patient remains visible beside the mobile menu button, and both audience choices are always one tap away.
 
 Utility wording is exactly `Suffering from a chronic wound? Call (877) 288-1270`, with the number linked as `tel:+18772881270`. No coverage text, referral CTA, or extra utility links are added to this bar.
 
@@ -50,9 +52,11 @@ The next-version clarification keeps all Service Areas and city pages excluded, 
 
 ## Preview limitations and handoff
 
-The preview server exposes eight retained pages and the global component preview. The homepage, Wound Care service hub, Wounds We Treat condition hub, About page, Technology page, and Contact page are built; the four Service Areas paths are excluded for now. Contact is a simple contact-information page without forms. Separate `/self-referral/` and `/patient-referral/` pages contain inactive previews for patients/families and healthcare providers respectively. No form submits, collects, stores, or sends information. Approved workflow connections are required before enabling them.
+The preview server exposes ten content pages and the global component preview. The homepage, Wound Care service hub, Wounds We Treat condition hub, About, Technology, Contact, two referral pages, and two legal pages are built; the four Service Areas paths remain excluded. Contact is a simple contact-information page without forms. Separate `/self-referral/` and `/patient-referral/` pages embed the supplied Jotforms for patients/families and healthcare providers respectively. These hosted forms can accept information from the local preview; their account-side privacy configuration, recipients, and delivery are not verified by the website build.
 
-The supplied official phone is `(877) 288-1270`; telephone links use `tel:+18772881270`. JC subsequently supplied `info@woundhaven.com`, `careers@woundhaven.com`, `referpatient@woundhaven.com`, and `medicalrecords@woundhaven.com` with their respective purposes. All four are linked in the shared footer and Contact page in the latest revision, which JC authorized pushing; mailbox delivery is unverified. The separate referral pages now embed the supplied Jotforms, superseding the earlier inactive-preview limitation above. Privacy, terms, accessibility, dedicated careers pages, social, individual treatment pages, and location pages remain omitted from global navigation as directed.
+The supplied official phone is `(877) 288-1270`; telephone links use `tel:+18772881270`. JC subsequently supplied `info@woundhaven.com`, `careers@woundhaven.com`, `referpatient@woundhaven.com`, and `medicalrecords@woundhaven.com` with their respective purposes. All four are linked in the shared footer and Contact page in the latest revision, which JC authorized pushing; mailbox delivery is unverified. The separate referral pages now embed the supplied Jotforms, superseding the earlier inactive-preview limitation above. Accessibility, dedicated careers pages, social, individual treatment pages, and location pages remain omitted from global navigation as directed.
+
+The October 9 revision adds `© 2026 Wound Haven` and a dedicated legal navigation row at the bottom of the shared footer. Privacy Policy and Terms of Service link to `/privacy-policy/` and `/terms-of-service/`, not placeholder anchors. JC's subsequently supplied content replaces the assistant drafts and review notices. Both pages show `Last Updated: October 9, 2026`, retain every supplied section, and use the existing general inquiry email for contact placeholders. Their content provenance, account-side/legal verification boundaries, and editable-source paths are documented in the README. Both use the existing brand system. JC explicitly authorized committing and pushing this revision on October 9; verify the existing Pages deployment and actual live pages before reporting publication complete. The preview now exposes ten content pages plus the global-component review.
 
 Colors use the working blue/navy palette. No clinical metrics, testimonials, or equipment claims are introduced by these components.
 

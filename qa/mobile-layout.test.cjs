@@ -3,7 +3,7 @@ const assert = require('node:assert/strict');
 const { chromium, webkit } = require('playwright');
 
 const base = process.env.WOUNDHAVEN_QA_BASE || 'http://127.0.0.1:4178';
-const routes = ['/', '/wound-care/', '/wounds-we-treat/', '/technology/', '/about/', '/contact/', '/self-referral/', '/patient-referral/', process.env.WOUNDHAVEN_QA_GLOBAL_ROUTE || '/preview/global/'];
+const routes = ['/', '/wound-care/', '/wounds-we-treat/', '/technology/', '/about/', '/contact/', '/self-referral/', '/patient-referral/', '/privacy-policy/', '/terms-of-service/', process.env.WOUNDHAVEN_QA_GLOBAL_ROUTE || '/preview/global/'];
 const widths = [320, 375, 390, 430, 600, 768, 880, 1440];
 
 (async () => {

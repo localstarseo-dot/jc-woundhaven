@@ -15,8 +15,10 @@ const routes = {
   '/contact/': 'Contact Wound Haven',
   '/self-referral/': 'Self Referral Form',
   '/patient-referral/': 'Patient Referral Form',
+  '/privacy-policy/': 'Privacy Policy',
+  '/terms-of-service/': 'Terms of Service',
 };
-const builtPages = { '/': 'index.html', '/wound-care/': 'wound-care/index.html', '/wounds-we-treat/': 'wounds-we-treat/index.html', '/about/': 'about/index.html', '/technology/': 'technology/index.html', '/contact/': 'contact/index.html', '/self-referral/': 'self-referral/index.html', '/patient-referral/': 'patient-referral/index.html' };
+const builtPages = { '/': 'index.html', '/wound-care/': 'wound-care/index.html', '/wounds-we-treat/': 'wounds-we-treat/index.html', '/about/': 'about/index.html', '/technology/': 'technology/index.html', '/contact/': 'contact/index.html', '/self-referral/': 'self-referral/index.html', '/patient-referral/': 'patient-referral/index.html', '/privacy-policy/': 'privacy-policy/index.html', '/terms-of-service/': 'terms-of-service/index.html' };
 const types = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.svg': 'image/svg+xml', '.webp': 'image/webp', '.png': 'image/png' };
 const escape = (value) => value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
 const server = http.createServer(async (req, res) => {

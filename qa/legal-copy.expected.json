@@ -1,0 +1,147 @@
+{
+  "/terms-of-service/": {
+    "title": "Terms of Service",
+    "date": "Last Updated: October 9, 2026",
+    "intro": [
+      "Welcome to the Wound Haven website.",
+      "These Terms of Service govern your use of our website, online contact and referral forms, and optional SMS communication services.",
+      "By using our website, you agree to these Terms of Service to the extent permitted by applicable law."
+    ],
+    "sections": [
+      {
+        "heading": "1. About Wound Haven",
+        "text": "1. About Wound Haven Wound Haven provides advanced wound-care services for appropriate patients in homes and supported healthcare environments. Our services may be available in Austin, Houston, San Antonio, College Station, Corpus Christi, Beaumont, and surrounding areas. Service availability depends on the patient's clinical needs, geographic location, eligibility, and other operational considerations."
+      },
+      {
+        "heading": "2. Website Information",
+        "text": "2. Website Information Information published on the Wound Haven website is intended for general informational purposes. Website content is not a substitute for professional medical advice, diagnosis, evaluation, or treatment. Submitting an online inquiry or referral does not guarantee acceptance for services or establish a provider-patient relationship."
+      },
+      {
+        "heading": "3. Patient and Healthcare Provider Referrals",
+        "text": "3. Patient and Healthcare Provider Referrals Wound Haven provides separate referral pathways for: Patients, family members, guardians, and caregivers Healthcare providers and care facilities Individuals submitting referral information are responsible for providing accurate information and having appropriate authority to submit information about another person. A referral submission does not guarantee an appointment, treatment, or particular clinical outcome."
+      },
+      {
+        "heading": "4. Wound Haven SMS Communication Program",
+        "text": "4. Wound Haven SMS Communication Program Wound Haven offers an optional SMS communication program for individuals who agree to receive text messages regarding their interactions with Wound Haven. Depending on the type of request and the recipient's consent, messages may include: Referral inquiry follow-ups Appointment scheduling information Administrative coordination Provider referral updates Appropriate care coordination communications The current SMS program is intended for informational and administrative communications, not third-party marketing or promotional messaging."
+      },
+      {
+        "heading": "5. How SMS Consent Is Obtained",
+        "text": "5. How SMS Consent Is Obtained Individuals may opt in through a designated SMS consent checkbox on applicable Wound Haven forms or another approved consent process. The SMS checkbox is optional and should not be preselected. Submitting a contact form, providing a phone number, or submitting a patient referral does not automatically enroll someone in optional SMS messaging. Healthcare providers submitting information about a patient do not automatically provide SMS consent on that patient's behalf. Consent to receive text messages is not required to submit a referral or receive Wound Haven services."
+      },
+      {
+        "heading": "6. Message Frequency and Charges",
+        "text": "6. Message Frequency and Charges Message frequency varies depending on referral activity, scheduling needs, and administrative follow-up. Message and data rates may apply. Your mobile carrier may charge fees according to your wireless service plan. Wound Haven is not responsible for charges imposed by your mobile carrier."
+      },
+      {
+        "heading": "7. SMS Opt-Out Instructions",
+        "text": "7. SMS Opt-Out Instructions You may opt out of receiving Wound Haven text messages at any time by replying: STOP After opting out, you will no longer receive optional SMS messages from the applicable messaging program unless you provide new consent, except for messages permitted or required to confirm or process your opt-out. Withdrawing SMS consent will not prevent you from submitting referrals or requesting services. Other permitted communication methods may remain available."
+      },
+      {
+        "heading": "8. SMS Help and Support",
+        "text": "8. SMS Help and Support For assistance regarding Wound Haven SMS communications, reply: HELP You may also contact Wound Haven at: (877) 288-1270 For additional information, visit https://woundhaven.com."
+      },
+      {
+        "heading": "9. SMS Delivery and Availability",
+        "text": "9. SMS Delivery and Availability SMS delivery depends on telecommunications networks, mobile carriers, supported devices, and other technical conditions. Wound Haven cannot guarantee immediate or uninterrupted message delivery. Messages may be delayed, blocked, or undelivered due to carrier restrictions or technical issues. SMS should not be relied upon for emergency medical communication."
+      },
+      {
+        "heading": "10. Healthcare Information and SMS Privacy",
+        "text": "10. Healthcare Information and SMS Privacy Standard SMS may not be an appropriate channel for transmitting sensitive patient information. Wound Haven may use alternative communication methods when information requires additional privacy or security safeguards. Individuals should not send wound photographs, detailed medical records, diagnoses, or other sensitive information through ordinary text messaging unless an appropriate communication method has been specifically established. SMS consent does not replace any separate healthcare authorization required by applicable law."
+      },
+      {
+        "heading": "11. Privacy Policy",
+        "text": "11. Privacy Policy The collection, use, and handling of personal information associated with Wound Haven's website and SMS communications are described in our Privacy Policy. Privacy Policy: https://woundhaven.com/privacy-policy Mobile information and SMS opt-in data will not be shared with third parties or affiliates for their independent marketing or promotional purposes."
+      },
+      {
+        "heading": "12. Emergency Medical Situations",
+        "text": "12. Emergency Medical Situations Wound Haven's website, online referral forms, and SMS program are not emergency response services. For a medical emergency, call 911 or seek immediate emergency medical care. Do not submit urgent medical requests through website forms or SMS."
+      },
+      {
+        "heading": "13. Acceptable Website Use",
+        "text": "13. Acceptable Website Use Users agree not to misuse the website, submit intentionally false information, impersonate others, interfere with website operations, or attempt unauthorized access to website systems. Wound Haven may restrict improper or unlawful use of its website."
+      },
+      {
+        "heading": "14. Intellectual Property",
+        "text": "14. Intellectual Property Unless otherwise stated, Wound Haven owns or uses under appropriate permission the website's branding, written content, graphics, images, and other materials. These materials may not be reproduced or commercially distributed without authorization, except as permitted by applicable law."
+      },
+      {
+        "heading": "15. Website and Service Availability",
+        "text": "15. Website and Service Availability Wound Haven may update, modify, or discontinue website features and communication services when appropriate. Website availability, referral processing, and communication functions may occasionally be affected by maintenance, technical issues, or other operational circumstances."
+      },
+      {
+        "heading": "16. Changes to These Terms",
+        "text": "16. Changes to These Terms Wound Haven may update these Terms of Service periodically. Any updated terms will be published on this page with a revised effective date."
+      },
+      {
+        "heading": "17. Contact Information",
+        "text": "17. Contact Information For questions regarding these Terms of Service or Wound Haven's optional SMS program, contact: Wound Haven Phone: (877) 288-1270 Website: https://woundhaven.com Contact Email: info@woundhaven.com"
+      }
+    ]
+  },
+  "/privacy-policy/": {
+    "title": "Privacy Policy",
+    "date": "Last Updated: October 9, 2026",
+    "intro": [
+      "Wound Haven (\"Wound Haven,\" \"we,\" \"our,\" or \"us\") is committed to protecting the privacy and personal information of individuals who visit our website, request wound care, submit patient referrals, or communicate with our team.",
+      "This Privacy Policy explains how we collect, use, maintain, and disclose information through our website, online forms, and related communication services."
+    ],
+    "sections": [
+      {
+        "heading": "1. Information We Collect",
+        "text": "1. Information We Collect We may collect information that you voluntarily provide when using our website, including: Full name Telephone or mobile phone number Email address Mailing address or service location Contact preferences Patient or referral information Healthcare provider or facility information Information submitted through contact and referral forms SMS communication preferences and consent records We may also collect technical information, such as IP addresses, browser types, device information, and website activity, through website technologies where enabled."
+      },
+      {
+        "heading": "2. How We Use Your Information",
+        "text": "2. How We Use Your Information Wound Haven may use collected information to: Respond to inquiries Review wound-care requests Process patient and healthcare provider referrals Coordinate appointments and appropriate follow-up Communicate with patients, caregivers, and healthcare providers Provide administrative updates about requested services Maintain website functionality and security Comply with applicable laws and regulations We use personal information only for legitimate business, administrative, healthcare-related, or legally permitted purposes."
+      },
+      {
+        "heading": "3. SMS Communications and Consent",
+        "text": "3. SMS Communications and Consent Wound Haven may offer optional SMS communications to individuals who provide appropriate consent. Text messages may relate to: Wound-care inquiries Patient referral follow-ups Appointment scheduling Administrative coordination Care-related communication that is appropriate for SMS Individuals may provide consent through an optional SMS communication checkbox on an applicable website or referral form, or through another approved consent process. Providing a mobile phone number or submitting a referral does not, by itself, constitute agreement to receive optional SMS messages. Consent to receive SMS messages is not required to submit a patient referral or receive Wound Haven services. Message frequency varies. Message and data rates may apply. Reply STOP to opt out of SMS communications or HELP for assistance."
+      },
+      {
+        "heading": "4. Mobile Information Privacy and Non-Sharing Policy",
+        "text": "4. Mobile Information Privacy and Non-Sharing Policy Mobile information will not be shared with third parties/affiliates for marketing/promotional purposes. All the above categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties. Wound Haven does not sell SMS opt-in information or transfer a person's SMS consent to another business for independent messaging or promotional activities. SMS communication consent is specific to Wound Haven and the messaging purposes described when consent is obtained."
+      },
+      {
+        "heading": "5. SMS Opt-Out and Communication Preferences",
+        "text": "5. SMS Opt-Out and Communication Preferences You may withdraw your consent to receive text messages at any time by replying STOP to a Wound Haven SMS message. For assistance, reply HELP or contact Wound Haven at (877) 288-1270. Opting out of SMS communications does not prevent you from submitting a referral, requesting wound-care services, or communicating through other available channels. Wound Haven will honor SMS opt-out requests in accordance with applicable requirements."
+      },
+      {
+        "heading": "6. Patient and Healthcare Information",
+        "text": "6. Patient and Healthcare Information Certain website and referral forms may collect information relating to a patient's healthcare needs. Wound Haven handles patient information in accordance with applicable healthcare privacy and security requirements. Where applicable, protected health information is also governed by Wound Haven's separate Notice of Privacy Practices. Patients, families, and healthcare professionals should submit sensitive medical information only through designated, appropriately secured referral or communication channels. Do not send sensitive medical information through general website contact forms, ordinary email, or standard text messages unless Wound Haven specifically directs you to an approved method. SMS consent does not replace any separate authorization that may be required for the use or disclosure of protected health information."
+      },
+      {
+        "heading": "7. Website Forms and Service Providers",
+        "text": "7. Website Forms and Service Providers Wound Haven may use third-party technology providers to support website hosting, referral forms, communications, and other operational functions. Such service providers are expected to process information only as appropriate for their authorized services and applicable legal obligations. SMS consent information is not made available to third parties for their independent marketing or promotional purposes."
+      },
+      {
+        "heading": "8. Cookies and Website Analytics",
+        "text": "8. Cookies and Website Analytics Our website may use cookies and similar technologies to support website functionality, maintain security, and understand website usage. Where analytics or other tracking technologies are enabled, they may collect limited technical information about website activity. Visitors may be able to manage certain cookies through browser settings or available website privacy controls."
+      },
+      {
+        "heading": "9. Information Security",
+        "text": "9. Information Security Wound Haven uses reasonable administrative, technical, and organizational measures intended to safeguard personal information. However, no electronic transmission or storage method can be guaranteed to be completely secure. Users should avoid submitting confidential medical details through unapproved communication methods."
+      },
+      {
+        "heading": "10. Data Retention",
+        "text": "10. Data Retention Wound Haven retains personal information for periods reasonably necessary to fulfill the purposes described in this policy or to comply with applicable legal, healthcare, regulatory, and recordkeeping obligations. SMS consent and opt-out records may be maintained as appropriate to document communication preferences and compliance."
+      },
+      {
+        "heading": "11. Your Privacy Choices",
+        "text": "11. Your Privacy Choices Depending on applicable law, you may have rights relating to your personal information, including requesting access, correction, or other available privacy actions. You may also update communication preferences or opt out of optional SMS communications. Certain healthcare or legally required records may be subject to separate retention and disclosure requirements."
+      },
+      {
+        "heading": "12. Third-Party Websites",
+        "text": "12. Third-Party Websites Our website may contain links to services or websites operated by other organizations. Wound Haven is not responsible for the privacy practices of independent third-party websites. We encourage users to review the privacy policies of those services."
+      },
+      {
+        "heading": "13. Changes to This Privacy Policy",
+        "text": "13. Changes to This Privacy Policy Wound Haven may update this Privacy Policy as its website, services, communication practices, or legal requirements change. The latest version will be published on this page with an updated effective date."
+      },
+      {
+        "heading": "14. Contact Information",
+        "text": "14. Contact Information If you have questions about this Privacy Policy or your information, please contact: Wound Haven Phone: (877) 288-1270 Website: https://woundhaven.com Privacy Contact Email: info@woundhaven.com Service Areas: Austin, Houston, San Antonio, College Station, Corpus Christi, Beaumont, and surrounding areas."
+      }
+    ]
+  }
+}
